@@ -1,0 +1,551 @@
+/*IMPORT*/
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:ital@1&display=swap');
+/*------------------------------------------------------------------------------------------------------*/
+/*NAVBAR*/
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 2.5em;
+  font-family: 'Bebas Neue', cursive;
+}
+.contrasto:hover{
+  color: rgb(189, 13, 13) !important;
+}
+.contrasto1:hover{
+  color: gray !important;
+}
+
+.nav-link{
+  display:inline-block !important; /*Mi permette di avere gli elementi delle Navbar allineati*/
+  
+}
+.navbar .navbar-nav {
+  border-top: 2px solid #000;
+  }
+
+@media only screen and (min-width: 991px) {
+.navbar {
+  flex-direction: column;
+}
+
+}
+@media screen and (max-width: 991px) {
+ 
+  .nav-link {
+      font-size: 1.5em !important;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+}
+@media screen and (max-width: 290px) {
+ 
+  .nav-link {
+      font-size: 0.8em !important;
+      margin-left: 5px;
+      margin-right: 5px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .nav-item {
+      text-align: center;
+      word-spacing: 1vw;
+  }
+}
+@media screen and (max-width: 960px) {
+  .resizeImg {
+      width: 200px !important;
+      height: 50px !important;
+      display: block !important;
+  }
+}
+@media screen and (max-width: 983px) {
+ .noMargine{
+   margin-top: -30px !important;
+ }
+}
+
+/*FINE NAVBAR*/
+/*------------------------------------------------------------------------------------------------------*/
+/*POSIZIONE HEAD - IMMAGINE + BOTTONE*/
+
+.img-fluid{
+  width: 100%;
+  height: 400px;
+  margin:0 0 0 0 !important;
+  z-index: 5;
+}
+
+
+.posBottone{
+  position: absolute;
+  top:540px;
+  left: 15px;
+  font-family: 'Bebas Neue', cursive;
+  margin-top: 0px !important;
+}
+@media screen and (max-width: 990px) {
+  .posBottone{
+    position: relative;
+    top:390px;
+    left: 15px;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px !important;
+  }
+}
+/*SHAKER*/
+@keyframes wiggle {
+  2% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  4% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  6% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  8% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  10% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  12% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  14% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  16% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  18% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  20% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.7s infinite;
+ 
+}
+
+.wiggle:hover {
+  animation: none;
+}
+/*END SHAKER*/
+/*FINE HEAD - IMMAGINE + BOTTONE*/
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/*CAROSELLO IMMAGINI + STORIA*/
+
+.marginColonna{
+  margin: 0 0 0 0 !important;
+  padding: 0 0 0 0 !important;
+}
+.caroselloResize{
+  width:100%;
+  height: 400px;
+  max-height: 400px;
+}
+@media screen and (max-width: 960px) {
+  .caroselloResize{
+    width:150%;
+    height: 250px;
+  }
+}
+.titoloStoria{
+  font-family:'Bebas Neue', cursive;
+  font-size: 2em;
+  text-align: center;
+  background-color: rgb(246, 102, 102);
+}
+.titoloStoria1{
+  font-family:'Bebas Neue', cursive;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: white;
+}
+.titoloStoria2{
+  font-family:'Bebas Neue', cursive;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: rgb(246, 102, 102);
+}
+
+.storia{
+  margin-top: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: 'Economica', sans-serif;
+  font-size: 1.6em;
+  text-align: center;
+  max-height: 300px !important;
+ 
+}
+@media screen and (min-width: 1062px) {
+  .storia{
+    font-size:1.65em;
+  }
+}
+@media screen and (min-width: 1320px) {
+  .storia{
+    font-size:1.8em;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .storia{
+    font-size:1.085em;
+  }
+}
+@media screen and (max-width: 737px) {
+  .storia{
+    font-size:1.01em;
+  }
+}
+@media screen and (max-width: 632px) {
+  .storia{
+    font-size:0.89em;
+  }
+}
+@media screen and (max-width: 456px) {
+  .storia{
+    font-size:0.8em;
+  }
+}
+@media screen and (max-width: 361px) {
+  .storia{
+    font-size:0.68em;
+    
+  }
+}
+@media screen and (max-width: 280px) {
+  .storia{
+    font-size:0.69em;
+  }
+}
+@media screen and (max-width: 268px) {
+  .storia{
+    font-size:0.5em;
+  }
+}
+/*FINE CAROSELLO IMMAGINI + STORIA*/
+
+/*------------------------------------------------------------------------------------------------------*/
+/*BOTTONI MENU E MENU*/
+.menu{
+  padding:0 0 0 0 !important;
+  margin: 0 0 0 0 !important;
+  width: 100% !important;
+  height: 200px;
+}
+
+.BtnMenu{
+  font-family:'Bebas Neue', cursive;
+  text-align: center;
+  align-items: center !important;
+  position: relative;
+  margin-top: 50px;
+  border:none;
+}
+
+.photo-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+  grid-auto-rows: 150px;
+}
+@media screen and (max-width: 600px) {
+  .photo-grid{
+    display:grid;
+    
+    grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+    grid-auto-rows: 100px;
+  }
+  .card1-tall{
+    grid-row: span 2/auto;
+  }
+  .card1-wide{
+    grid-column: span 2/auto;
+  }
+}
+
+.card1{
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  font-family:'Bebas Neue', cursive;
+  color: white !important;
+  font-size: 2.0vw;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+}
+.imgSize{
+  background-size: cover;
+  overflow: hidden;
+}
+.button{
+  border: none !important;
+  background-color: transparent !important;
+  color: white;
+}
+
+.imgSize {
+	-webkit-transform: scale(1.0);
+	transform: scale(1.0);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.imgSize:hover {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+/*FINE BOTTONI MENU*/
+
+/*------------------------------------------------------------------------------------------------------*/
+/*MENU*/
+
+.sfondoMenu{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tovagliaMenu.jpg") !important;
+  background-size: cover;
+  z-index: 999999;
+}
+.card{
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.589);
+  height: 60px;
+}
+.card-title{
+  font-size: 1.0vw;
+  text-align: center;
+  font-family:'Bebas Neue', cursive;
+}
+
+div.gallery img {
+  width: auto;
+  height: auto;
+  margin: 0 0 0 0;
+  padding: 0 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive1 {
+  padding: 0 0px;
+  float: left;
+  width: 20%;
+  float: left;
+  margin: 10px 0 !important;
+}
+
+.clearfix:after {
+  
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 0 0 0 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive1 {
+      width: 20%;
+      height: auto;
+      margin: 0 0;
+      margin: 2px 0 !important;
+  }
+  .card-title{
+    font-size: 1.3vw;
+    text-align:center;
+    margin-top: -12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family:'Bebas Neue', cursive;
+  }
+  .card{
+    margin: 0 2px;
+    background-color: rgba(255, 255, 255, 0.589);
+    height: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 300px) {
+  .responsive1 {
+      width: 25%;
+      height: auto;
+      margin: 0 0;
+      margin: 2px 0 !important;
+  }
+  .card-title{
+    font-size: 1.5vw;
+    text-align:center;
+    margin-top: -12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family:'Bebas Neue', cursive;
+  }
+}
+
+
+
+
+.imgCarousel{
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+
+.imgContatti{
+  margin-left: 10px;
+  align-items: center;
+}
+.testoContatti{
+  margin-top: 10px;
+  font-family:'Bebas Neue', cursive;
+  font-size: 1.1em;
+  text-align: center;
+  color: #000;
+
+}
+
+td{
+  padding: none !important;
+}
+
+.dimensioni{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border:none !important;
+  border-radius: 0%;
+
+}
+
+.wrapper{
+  padding-left: 2px;
+}
+
+.container-fluid{
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.photo-grid1{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+  grid-auto-rows: 112px;
+  padding-right: 5px;
+  
+}
+.card2{
+  border-radius: 0px !important;
+  font-family:'Bebas Neue', cursive;
+  color: black !important;
+  font-size: 2.5vw;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+  opacity: none !important;
+}
+.card3{
+  border-radius: 0px !important;
+  font-family:'Bebas Neue', cursive;
+  color: black !important;
+  font-size: 2.5vw;
+  align-items: center;
+  padding-top: 15px;
+  text-align: center;
+  opacity: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .card2{
+    border-radius: 0px !important;
+    font-family:'Bebas Neue', cursive;
+    color: black !important;
+    font-size: 3vw;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 50px;
+    text-align: center !important;
+    opacity: none !important;
+  }
+  .card3{
+    border-radius: 0px !important;
+    font-family:'Bebas Neue', cursive;
+    color: black !important;
+    font-size: 3.2vw;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 30px;
+    text-align: center !important;
+    opacity: none !important;
+  }
+}
+
+.imgSize1{
+  background-size: cover;
+  overflow: hidden;
+}
+
+.sfondoContatti1{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/mi.jpg") !important;
+  background-size: cover;
+  z-index: 999999;
+}
+.sfondoContatti2{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.jpg") !important;
+  background-size: cover;
+  z-index: 999999;
+}
+.sfondoContatti3{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/preno.jpeg") !important;
+  background-size: cover;
+  z-index: 999999;
+}
+.sfondoContatti4{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/social.jpg") !important;
+  background-size: cover;
+  z-index: 999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+ .footer{
+  margin-top: 1px !important;
+  font-family:'Bebas Neue', cursive;
+  font-size: 2em;
+  text-align: center;
+  background-color: gray;
+  margin:0 0 0 0 ;
+}
+
+p{
+  margin: 0 0 0 0 !important;
+}
