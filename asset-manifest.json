@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.1293d48b.chunk.css",
-    "main.js": "/risto/static/js/main.10905293.chunk.js",
-    "main.js.map": "/risto/static/js/main.10905293.chunk.js.map",
-    "runtime-main.js": "/risto/static/js/runtime-main.a2d2a5b1.js",
-    "runtime-main.js.map": "/risto/static/js/runtime-main.a2d2a5b1.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/risto/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.90823190.chunk.js": "/risto/static/js/2.90823190.chunk.js",
-    "static/js/2.90823190.chunk.js.map": "/risto/static/js/2.90823190.chunk.js.map",
-    "static/js/3.bee6f4c3.chunk.js": "/risto/static/js/3.bee6f4c3.chunk.js",
-    "static/js/3.bee6f4c3.chunk.js.map": "/risto/static/js/3.bee6f4c3.chunk.js.map",
+    "main.css": "/risto/static/css/main.ae422079.chunk.css",
+    "main.js": "/risto/static/js/main.4dcc695b.chunk.js",
+    "main.js.map": "/risto/static/js/main.4dcc695b.chunk.js.map",
+    "runtime-main.js": "/risto/static/js/runtime-main.50899b6a.js",
+    "runtime-main.js.map": "/risto/static/js/runtime-main.50899b6a.js.map",
+    "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
+    "static/js/2.fc5363b7.chunk.js": "/risto/static/js/2.fc5363b7.chunk.js",
+    "static/js/2.fc5363b7.chunk.js.map": "/risto/static/js/2.fc5363b7.chunk.js.map",
+    "static/js/3.58c7bb74.chunk.js": "/risto/static/js/3.58c7bb74.chunk.js",
+    "static/js/3.58c7bb74.chunk.js.map": "/risto/static/js/3.58c7bb74.chunk.js.map",
     "index.html": "/risto/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/risto/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.1293d48b.chunk.css.map": "/risto/static/css/main.1293d48b.chunk.css.map",
-    "static/js/2.90823190.chunk.js.LICENSE.txt": "/risto/static/js/2.90823190.chunk.js.LICENSE.txt",
-    "static/media/AngoloLogo.b5a17748.png": "/risto/static/media/AngoloLogo.b5a17748.png",
+    "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
+    "static/css/main.ae422079.chunk.css.map": "/risto/static/css/main.ae422079.chunk.css.map",
+    "static/js/2.fc5363b7.chunk.js.LICENSE.txt": "/risto/static/js/2.fc5363b7.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/risto/static/media/tovagliaMenu.05f05cb9.jpg",
     "static/media/EntrataAbruzzo.6ace9c04.jpg": "/risto/static/media/EntrataAbruzzo.6ace9c04.jpg",
     "static/media/EntrataAbruzzo1.9fb5b706.jpg": "/risto/static/media/EntrataAbruzzo1.9fb5b706.jpg",
     "static/media/Fuori.f89d3263.jpg": "/risto/static/media/Fuori.f89d3263.jpg",
@@ -36,7 +36,6 @@
     "static/media/location.1490422b.png": "/risto/static/media/location.1490422b.png",
     "static/media/menu1.60ad887a.jpg": "/risto/static/media/menu1.60ad887a.jpg",
     "static/media/menuguidato.52ac7072.jpeg": "/risto/static/media/menuguidato.52ac7072.jpeg",
-    "static/media/App.css": "/risto/static/media/tovagliaMenu.05f05cb9.jpg",
     "static/media/muralesang.c7aeaac8.jpg": "/risto/static/media/muralesang.c7aeaac8.jpg",
     "static/media/nero.85a04499.jpg": "/risto/static/media/nero.85a04499.jpg",
     "static/media/pane.95e71d61.jpeg": "/risto/static/media/pane.95e71d61.jpeg",
@@ -49,10 +48,10 @@
     "static/media/vino.3f7d7e5f.jpeg": "/risto/static/media/vino.3f7d7e5f.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2d2a5b1.js",
-    "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.90823190.chunk.js",
-    "static/css/main.1293d48b.chunk.css",
-    "static/js/main.10905293.chunk.js"
+    "static/js/runtime-main.50899b6a.js",
+    "static/css/2.7ac31146.chunk.css",
+    "static/js/2.fc5363b7.chunk.js",
+    "static/css/main.ae422079.chunk.css",
+    "static/js/main.4dcc695b.chunk.js"
   ]
 }
