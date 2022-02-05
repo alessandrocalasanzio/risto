@@ -1,6 +1,6 @@
 import  React from "react";
-import Mappa from "./mappa";
-import TestoContatti from "./testoContatti";
+import Mappa from "./11.mappa";
+import TestoContatti from "./10.testoContatti";
 
 class Contatti extends React.Component{
     render(){

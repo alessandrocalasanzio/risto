@@ -1,35 +1,103 @@
-import React from "react";
-import AngoloLogo from "../img/AngoloLogo.png";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import angolo from "../img/EntrataAbruzzo.jpg";
+import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
 
-class Navbar extends React.Component{
-    render() {
-return(
-<div className="image">
-<nav class="navbar navbar-expand-lg navbar-light" style={{backgroundColor:'white'}} >
-    <a class="navbar-brand" href="#"><img src={AngoloLogo} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="580" height="100" className="resizeImg"/></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+export default class TransNavigationBar extends Component {
+ 
+  state = {
+    headerBreakPoint: 50,
+    activeHeader: false,
+    navbarExpanded: false
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+
+      if (scrollY >= this.state.headerBreakPoint) {
+        this.setState({
+          activeHeader: true
+        });
+      } else if (
+        scrollY < this.state.headerBreakPoint &&
+        this.state.navbarExpanded === false
+      ) {
+        this.setState({
+          activeHeader: false
+        });
+      }
+    });
+  }
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-                <a class="nav-link contrasto" href="#">Home</a>
-                <a class="nav-link contrasto1" href="#">Chi Siamo</a>
-                <a class="nav-link contrasto" href="#">Menu</a>
-                <a class="nav-link contrasto1" href="#">Galleria</a>
-                <a class="nav-link contrasto" href="#">Contatti</a>
-            </li>
-           
-        </ul>
-    </div>
-</nav>
+  render() {
+   
+    return (
+      <div>
+        
+          <div className="box">
+          <img src={angolo} class="img" alt="Responsive image"/>
+          <a type="button" href={PDF} download="MenuAngoloDabruzzo.pdf" className="btn btn-danger wiggle">
+                    Scarica il nostro Menu
+                    </a>
+          </div>
+        <nav className={`navbar navbar-expand-lg fixed-top ${this.state.activeHeader ? "test1" : ""}`}>
+        <a className={`navbar-brand ${this.state.activeHeader ? "noImg" : ""}`}href="#1">
+            </a>
+          <Navbar> 
+              <Nav className="mx-auto nav-item justify-content-center">
+                <Nav.Item>
+                  <Nav.Link>
+                    <Link className="nav-link contrasto" to="/">
+                      Home
+                    </Link>
+                  </Nav.Link>
+                </Nav.Item>
 
 
- </div>
-)
-    };
+                <NavDropdown title={<span className="nav-link contrasto1">Menu</span>} id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/viewattractions" className="nav-link-dropdown">
+                    Scarica il nostro menu
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/addattractions" className="nav-link-dropdown">
+                    Guarda il nostro menu
+                  </NavDropdown.Item>
+                </NavDropdown>
+
+
+                <Nav.Item>
+                  <Nav.Link>
+                    <Link className="nav-link contrasto" to="/about">
+                     <nobr>Chi Siamo</nobr>
+                    </Link>
+                  </Nav.Link>
+                </Nav.Item>
+
+
+                <Nav.Item>
+                  <Nav.Link>
+                    <Link className="nav-link contrasto1" to="/contact">
+                      Galleria
+                    </Link>
+                  </Nav.Link>
+                </Nav.Item>
+
+                <Nav.Item>
+                  <Nav.Link>
+                    <Link className="nav-link contrasto" to="/contact">
+                      Contatti
+                    </Link>
+                  </Nav.Link>
+                </Nav.Item>
+              </Nav>
+          </Navbar>
+        </nav>
+
+        
+      </div>
+    );
+  }
 }
-
-export default Navbar;

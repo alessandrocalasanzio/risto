@@ -4,95 +4,246 @@
 @import url('https://fonts.googleapis.com/css2?family=Economica:ital@1&display=swap');
 /*------------------------------------------------------------------------------------------------------*/
 /*NAVBAR*/
-.navbar .navbar-nav .nav-link {
+.navbar {
+  width: 100%;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.test1 {
+  background-color: white !important;
+}
+.navbar-nav{
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.navbar .navbar-nav .nav-link  {
   color: #000000;
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-family: 'Bebas Neue', cursive;
+  margin: -18px 0 -25px 0 !important;
+  padding: 0 5 0 0 !important;
+  flex-direction: row !important;
+}
+@media screen and (max-width: 1175px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 2.0em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1022px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.9em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 954px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.8em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 895px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.7em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -30px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 778px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.5em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 678px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.3em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding: 0 5 0 0 !important;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.2em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding-top: 0px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 475px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.05em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -18px 0 -25px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+  .noImg{
+    background-image: url('./img/AngoloLogo.png');
+    background-size: cover;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 0.8em !important;
+    font-family: 'Bebas Neue', cursive;
+    margin: -25px 0 -25px 0 !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+
 }
 .contrasto:hover{
-  color: rgb(189, 13, 13) !important;
+  color: rgb(165, 34, 34) !important;
 }
 .contrasto1:hover{
   color: gray !important;
 }
-
 .nav-link{
-  display:inline-block !important; /*Mi permette di avere gli elementi delle Navbar allineati*/
-  
+ display:inline-block !important; /*Mi permette di avere gli elementi delle Navbar allineati*/
+ flex-direction: row;
+ text-align: center;
 }
-.navbar .navbar-nav {
-  border-top: 2px solid #000;
-  }
-
-@media only screen and (min-width: 991px) {
-.navbar {
-  flex-direction: column;
+.nav-link-dropdown{
+  font-size: 1em;
+  font-family: 'Bebas Neue', cursive;
+  margin: -10px 0 -10px 0 !important;
+  padding: 0 5 0 0 !important;
+  color: black;
+  text-align: center;
 }
-
-}
-@media screen and (max-width: 991px) {
- 
-  .nav-link {
-      font-size: 1.5em !important;
-      margin-left: 5px;
-      margin-right: 5px;
-  }
-}
-@media screen and (max-width: 290px) {
- 
-  .nav-link {
-      font-size: 0.8em !important;
-      margin-left: 5px;
-      margin-right: 5px;
-  }
-}
-@media screen and (max-width: 993px) {
-  .nav-item {
-      text-align: center;
-      word-spacing: 1vw;
-  }
-}
-@media screen and (max-width: 960px) {
-  .resizeImg {
-      width: 200px !important;
-      height: 50px !important;
-      display: block !important;
-  }
-}
-@media screen and (max-width: 983px) {
- .noMargine{
-   margin-top: -30px !important;
- }
+.nav-link-dropdown:hover{
+  font-size: 1.1em;
+  font-family: 'Bebas Neue', cursive;
+  margin: -10px 0 -10px 0 !important;
+  padding: 0 5 0 0 !important;
+  color: rgb(165, 34, 34);
+  background-color: transparent;
+  text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+  .nav-link-dropdown{
+    font-size: 0.8em;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 5 0 0 !important;
+    color: black;
+    text-align: center;
+  }
+  .nav-link-dropdown:hover{
+    font-size: 0.9em;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 5 0 0 !important;
+    color: rgb(165, 34, 34);
+    background-color: transparent;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .nav-link-dropdown{
+    font-size: 0.6em;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 5 0 0 !important;
+    color: black;
+    text-align: center;
+  }
+  .nav-link-dropdown:hover{
+    font-size: 0.8em;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 5 0 0 !important;
+    color: rgb(165, 34, 34);
+    background-color: transparent;
+    text-align: center;
+  }
+}
 /*FINE NAVBAR*/
 /*------------------------------------------------------------------------------------------------------*/
-/*POSIZIONE HEAD - IMMAGINE + BOTTONE*/
 
-.img-fluid{
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/*BOTTONE "SCARICA MENU EFFETTO SHACKER*/
+.box{
+  display: inline-block;
+  position: relative;
+}
+.box img {
   width: 100%;
-  height: 400px;
-  margin:0 0 0 0 !important;
-  z-index: 5;
+  height: auto;
+  position: relative;
 }
 
-
-.posBottone{
+.box a {
   position: absolute;
-  top:540px;
-  left: 15px;
+  bottom:0.5em;
+  left:1em;
   font-family: 'Bebas Neue', cursive;
-  margin-top: 0px !important;
+  padding:10px;
+  color: white;
+  background: rgb(165, 34, 34);
+  display: block;
 }
-@media screen and (max-width: 990px) {
-  .posBottone{
-    position: relative;
-    top:390px;
-    left: 15px;
+
+.box a:hover{
+  color:rgb(165, 34, 34) ;
+  background: white;
+  border: none;
+}
+
+@media screen and (max-width: 576px){
+  .box a {
+    position: absolute;
+    bottom:0.5em;
+    left:1em;
     font-family: 'Bebas Neue', cursive;
-    margin-top: 0px !important;
+    font-size: small;
+    padding:5px;
+    color: white;
+    background: rgb(165, 34, 34);
+    display: block;
   }
 }
+
 /*SHAKER*/
 @keyframes wiggle {
   2% {
@@ -139,14 +290,60 @@
 .wiggle {
   display: inline-block;
   animation: wiggle 2.7s infinite;
- 
 }
 
 .wiggle:hover {
   animation: none;
 }
-/*END SHAKER*/
-/*FINE HEAD - IMMAGINE + BOTTONE*/
+/*FINE SHAKER*/
+/* FINE BOTTONE "SCARICA MENU EFFETTO SHACKER*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/*TITOLI CON EFFETTO DI ENTRATA*/
+.titoloStoria{
+  font-family:'Bebas Neue', cursive;
+  font-size: 5.5em;
+  text-align: left;
+}
+.contenitoreMinimo{
+  overflow: hidden !important;
+}
+.titoloStoria1{
+  font-family:'Bebas Neue', cursive;
+  font-size: 5.5em;
+  text-align: right;
+  overflow: hidden;
+  margin: 0 !important;
+}
+@media screen and (max-width: 576px){
+.titoloStoria{
+  font-size: 3.5em;
+}
+}
+@media screen and (max-width: 350px){
+  .titoloStoria{
+    font-size: 3.0em;
+  }
+  }
+@media screen and (max-width: 281px){
+    .titoloStoria{
+      font-size: 2.0em;
+    }
+    }
+/*FINE TITOLI CON EFFETTO DI ENTRATA*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
 
 
 /*------------------------------------------------------------------------------------------------------*/
@@ -161,89 +358,53 @@
   height: 400px;
   max-height: 400px;
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 576px) {
   .caroselloResize{
-    width:150%;
-    height: 250px;
+    height: 350px;
   }
 }
-.titoloStoria{
-  font-family:'Bebas Neue', cursive;
-  font-size: 2em;
-  text-align: center;
-  background-color: rgb(246, 102, 102);
-}
-.titoloStoria1{
-  font-family:'Bebas Neue', cursive;
-  font-size: 0.8em;
-  text-align: center;
-  background-color: white;
-}
-.titoloStoria2{
-  font-family:'Bebas Neue', cursive;
-  font-size: 0.8em;
-  text-align: center;
-  background-color: rgb(246, 102, 102);
+.centro{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 25px;
+  padding: 100px 0 100px 0;
+  max-height: 350px !important;
 }
 
 .storia{
-  margin-top: 12px;
-  margin-left: 2px;
-  margin-right: 2px;
   font-family: 'Economica', sans-serif;
-  font-size: 1.6em;
-  text-align: center;
-  max-height: 300px !important;
- 
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-size: calc(0.9em + 1vmin);
+  overflow: auto;
+  max-height: 350px;
+  text-size-adjust: auto;
+  justify-content: center;
+  width: 90%;
+  
 }
-@media screen and (min-width: 1062px) {
-  .storia{
-    font-size:1.65em;
+@media screen and (max-width: 614px) {
+  .centro{ 
+    padding: 25px 0 25px 0;
+    min-width: 100%;
+    max-height: 350px !important;
   }
-}
-@media screen and (min-width: 1320px) {
   .storia{
-    font-size:1.8em;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .storia{
-    font-size:1.085em;
-  }
-}
-@media screen and (max-width: 737px) {
-  .storia{
-    font-size:1.01em;
-  }
-}
-@media screen and (max-width: 632px) {
-  .storia{
-    font-size:0.89em;
-  }
-}
-@media screen and (max-width: 456px) {
-  .storia{
-    font-size:0.8em;
-  }
-}
-@media screen and (max-width: 361px) {
-  .storia{
-    font-size:0.68em;
+    overflow: none !important;
+    font-size: calc(0.6em + 1vmin);
     
   }
 }
-@media screen and (max-width: 280px) {
-  .storia{
-    font-size:0.69em;
-  }
-}
-@media screen and (max-width: 268px) {
-  .storia{
-    font-size:0.5em;
-  }
-}
+
+
+
 /*FINE CAROSELLO IMMAGINI + STORIA*/
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
 
 /*------------------------------------------------------------------------------------------------------*/
 /*BOTTONI MENU E MENU*/
@@ -271,7 +432,6 @@
 @media screen and (max-width: 600px) {
   .photo-grid{
     display:grid;
-    
     grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
     grid-auto-rows: 100px;
   }
@@ -288,32 +448,49 @@
   border-radius: 0px !important;
   font-family:'Bebas Neue', cursive;
   color: white !important;
-  font-size: 2.0vw;
+  font-size: 2.5vw;
   align-items: center;
   padding-top: 50px;
   text-align: center;
 }
-.imgSize{
-  background-size: cover;
-  overflow: hidden;
+@media screen and (max-width: 600px){
+.card1{
+  font-size: 3.5vw;
+}
 }
 .button{
   border: none !important;
   background-color: transparent !important;
   color: white;
 }
-
+.imgSize{
+  background-size: cover;
+  overflow: hidden;
+}
 .imgSize {
 	-webkit-transform: scale(1.0);
 	transform: scale(1.0);
 	-webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+  width: 100%;
 }
 .imgSize:hover {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
 }
 /*FINE BOTTONI MENU*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*------------------------------------------------------------------------------------------------------*/
 /*MENU*/
@@ -443,10 +620,7 @@ td{
   padding-left: 2px;
 }
 
-.container-fluid{
-  padding-right: 1%;
-  padding-left: 1%;
-}
+
 
 .photo-grid1{
   display:grid;
@@ -535,17 +709,63 @@ td{
 
 
 
-
-
+/*------------------------------------------------------------------------------------------------------*/
+/*FOOTER*/
  .footer{
-  margin-top: 1px !important;
+  margin-top: 0.1px !important;
   font-family:'Bebas Neue', cursive;
-  font-size: 2em;
+  color: white;
+  font-size: 15px;
   text-align: center;
-  background-color: gray;
+  background-color: black;
   margin:0 0 0 0 ;
 }
 
+.table{
+  margin: 0 0 0 0;
+  color: white;
+  
+}
+.testSx{
+  text-align: left !important;
+  margin-left: -15px !important;
+}
+.testCx{
+  text-align: center;
+  margin: 0 0 0 0 !important;
+}
+.testDx{
+  text-align: right;
+  align-items: right;
+  padding: 0 0 0 0 !important;
+}
+.fa{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 677px) {
+.testSx{
+ 
+  font-size: small;
+}
+  }
+
+  @media only screen and (max-width: 715px) {
+    .testCx{
+      font-size: small;
+      display: block;
+    }
+      }
+      @media only screen and (max-width: 420px) {
+        .testCx{
+          font-size: 12px;
+          text-align: center;
+          
+        }
+          }
+
+
+/*FINE FOOTER*/
 p{
   margin: 0 0 0 0 !important;
 }

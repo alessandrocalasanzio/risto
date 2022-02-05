@@ -3,12 +3,13 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from './components/1.navbar';
-import ImmagineHeader from './components/2.immHead';
 import ScheletroStoria from './components/4.scheletroStoria';
-import MenuLista from './components/menu';
-import GalleriaImmagini from './components/galleriaImm';
-import Contatti from './components/contatti';
-import Footer from './components/footer';
+import MenuLista from './components/7.menu';
+import GalleriaImmagini from './components/8.galleriaImm';
+import Contatti from './components/9.contatti';
+import Footer from './components/12.footer';
+import Titoli from './components/2.titoli';
+import Titoli1 from './components/3.titoli1';
 
 import menu from './img/menu1.jpg';
 import menuguidato from './img/menuguidato.jpeg';
@@ -179,20 +180,18 @@ function App() {
   }
   return (
 <Router basename={window.location.pathname || ''}>
-
-    <div>
+<div>
       <Navbar />
-      <ImmagineHeader />
-      <div className="container-fluid titoloStoria">LA NOSTRA STORIA</div>
+      <Titoli title="CHI SIAMO"/>
       <ScheletroStoria />
-      <div className="container-fluid titoloStoria">MENU</div>
-
+      <Titoli1 title="MENU"/>
       {/*BOTTONI MENU*/}
       <div class="container-fluid">
+
       <div class="row photo-grid card1-tall card1-wide">
             <div className="card1 imgSize" style={{ backgroundImage: `url(${menu})`}}><button className="button" onClick={filtra} value="All">MENU COMPLETO</button></div>
-
           </div>
+          
           <div class="row photo-grid card1-tall card1-wide">
             <div className="card1 imgSize" style={{ backgroundImage: `url(${pane})`}}><button className="button" onClick={filtra} value="antipasto">ANTIPASTO</button></div>
             <div className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})`}}><button className="button" onClick={filtra} value="primo">PRIMO</button></div>
@@ -219,10 +218,7 @@ function App() {
       <div className="container-fluid titoloStoria">CONTATTI</div>
       <Contatti/>
       <div className="container-fluid footer"><Footer/></div>
-
-      
     </div>
-
     </Router>
   );
 }
