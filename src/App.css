@@ -507,10 +507,10 @@
 }
 @media screen and (max-width: 600px){
   .sfondoMenu{
-    background-color:#000;
+    background-image: none;
+    background-color:#000 !important;
     background-size: cover;
-    background-repeat: repeat !important;
-    background-position: center center;
+    background-repeat: no-repeat !important;
   }
   }
 .responsive1 {
