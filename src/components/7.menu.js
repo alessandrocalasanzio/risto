@@ -1,28 +1,36 @@
 import React from "react";
 import sfondomenu from '../img/sfondomenu.jpeg';
 import nero from '../img/nero.jpg';
+import $ from "jquery";
+import { Table } from "react-bootstrap";
 
 class MenuLista extends React.Component {
-    render() {
-        return (
+  
+  render() {
+    $(function () {
+      $('[value]').on('click', function () {
+          $('[value]').removeClass('inactive');
+          $(this).addClass('inactive');
           
-            <section class="container-fluid">
-            <div class="responsive1 filterDiv">
-            <div class="gallery">
-              <div class="content">
-                <div class="content-overlay">
-                    <div class="card">
-                      <div class="card-body" >
-                        <h5 class="card-title">{this.props.menu.titolo}:<br/> &nbsp;<em>{this.props.menu.prezzo}<sup>&nbsp;00</sup></em>&nbsp; </h5>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-          </section>
-        )
-    }
+      });
+  });
+    return (
+
+      <div>
+      <h1 className="megCentrato">{this.props.menu.megatitolo}</h1>
+
+      <Table borderless  className="responsive1 filterDiv">
+        <thead>
+          <tr>
+            <th className="card-title"><nobr>{this.props.menu.titolo}</nobr></th>
+            <th style={{ textAlign: "right" }} className="top">{this.props.menu.dollaro}{this.props.menu.prezzo}<sup>&nbsp;{this.props.menu.numero}</sup></th>
+          </tr>
+        </thead>
+      </Table>
+    </div>
+
+    )
+  }
 }
 
 export default MenuLista;

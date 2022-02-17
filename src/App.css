@@ -2,6 +2,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Economica:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 /*------------------------------------------------------------------------------------------------------*/
 /*NAVBAR*/
 .navbar {
@@ -443,6 +445,8 @@
   }
 }
 
+
+
 .card1{
   border: 1px solid black !important;
   border-radius: 0px !important;
@@ -496,90 +500,115 @@
 /*MENU*/
 
 .sfondoMenu{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tovagliaMenu.jpg") !important;
+  background-image:  url("img/blackboard2.jpg");
   background-size: cover;
-  z-index: 999999;
+  background-repeat: repeat !important;
+  background-position: center center;
 }
-.card{
-  margin: 0 5px;
-  background-color: rgba(255, 255, 255, 0.589);
-  height: 60px;
-}
-.card-title{
-  font-size: 1.0vw;
-  text-align: center;
-  font-family:'Bebas Neue', cursive;
+.responsive1 {
+  padding: 0 0 0 0px !important;
+  float: left;
+  width:48%;
+  margin-left: 1% !important;
 }
 
-div.gallery img {
-  width: auto;
-  height: auto;
-  margin: 0 0 0 0;
-  padding: 0 0;
+@media screen and (max-width: 600px){
+  .responsive1 {
+    padding: 0 0 0 0px !important;
+    float: left;
+    width:48%;
+    margin-left: 5px !important;
+  }
+  }
+  @media screen and (max-width: 300px){
+    .responsive1 {
+      padding: 0 0 0 0px !important;
+      float: left;
+      width:48%;
+      margin-left: 2px !important;
+    }
+    }
+
+    @media screen and (max-width: 681px){
+  .card-title{
+    font-size: 1.6vw !important;
+  }
+      }
+      @media screen and (max-width: 341px){
+        .card-title{
+          font-size: 1.4vw !important;
+        }
+            }
+
+
+
+
+.megCentrato{
+  width: 100%;
+  font-size: 5vw;
+  text-align: center;
+  position:relative;
+  color: white;
+  margin: 0 0 10px 0 !important;
+  font-family: 'Fredericka the Great', cursive;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-title{
+  text-align: left !important;
+  font-size: 1.8vw;
+  color: white;
+  font-family: 'Fredericka the Great',cursive !important;
+  font-weight:normal !important;
+  margin: 10px 0 10px -20px !important;
+  padding: 0 0 0 0 !important;
+  justify-content: center;
+}
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5px;
+  font-family: 'Fredericka the Great', cursive !important;
+  font-weight: normal;
+  color: white;
+  vertical-align: baseline;
+}
+
+
+.top{
+  font-size: 1.6vw;
+  color: white;
+  font-family: 'Fredericka the Great',cursive !important;
+  font-weight:normal !important;
+  position: relative;
+  padding-bottom: 0px !important;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.responsive1 {
-  padding: 0 0px;
-  float: left;
-  width: 20%;
-  float: left;
-  margin: 10px 0 !important;
-}
 
 .clearfix:after {
-  
+  background-image: none !important;
   content: "";
   display: table;
   clear: both;
   margin: 0 0 0 0 !important;
-}
-
-@media only screen and (max-width: 800px) {
-  .responsive1 {
-      width: 20%;
-      height: auto;
-      margin: 0 0;
-      margin: 2px 0 !important;
-  }
-  .card-title{
-    font-size: 1.3vw;
-    text-align:center;
-    margin-top: -12px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family:'Bebas Neue', cursive;
-  }
-  .card{
-    margin: 0 2px;
-    background-color: rgba(255, 255, 255, 0.589);
-    height: 40px;
-  }
-}
-
-
-@media only screen and (max-width: 300px) {
-  .responsive1 {
-      width: 25%;
-      height: auto;
-      margin: 0 0;
-      margin: 2px 0 !important;
-  }
-  .card-title{
-    font-size: 1.5vw;
-    text-align:center;
-    margin-top: -12px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family:'Bebas Neue', cursive;
-  }
+  padding: 0 0 0 0 !important;
 }
 
 
 
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+/*CAROSELLO */
 
 .imgCarousel{
   width: 100%;
@@ -769,3 +798,11 @@ td{
 p{
   margin: 0 0 0 0 !important;
 }
+
+
+
+
+
+
+
+
