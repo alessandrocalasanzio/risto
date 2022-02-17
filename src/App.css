@@ -505,6 +505,14 @@
   background-repeat: repeat !important;
   background-position: center center;
 }
+@media screen and (max-width: 600px){
+  .sfondoMenu{
+    background-color:#000;
+    background-size: cover;
+    background-repeat: repeat !important;
+    background-position: center center;
+  }
+  }
 .responsive1 {
   padding: 0 0 0 0px !important;
   float: left;
