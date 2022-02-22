@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useRef} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -146,6 +146,7 @@ const menus = [
 function App() {
 
   const [state, setState] = useState(menus);
+  const ref= useRef(null);
 
   const filtra = (e) => {
     let word = e.target.value;
@@ -187,8 +188,16 @@ function App() {
     }
   }
 
+ 
+const myfunc=()=>{
+  console.log("");
+};
 
-
+useEffect(() => {
+  setTimeout(() => {
+    ref.current.click();
+  },10);
+},[]);
 
 
 
@@ -204,33 +213,34 @@ function App() {
         <div class="container-fluid">
 
           <div class="row photo-grid card1-tall card1-wide">
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><button className="button" onClick={filtra} value="All">MENU COMPLETO</button></div>
+            <div data-filter="menu"  className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><button className="button" onClick={filtra} value="All">MENU COMPLETO</button></div>
           </div>
 
           <div class="row photo-grid card1-tall card1-wide">
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${pane})` }}><button className="button" onClick={filtra} value="antipasto">ANTIPASTO</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})` }}><button className="button" onClick={filtra} value="primo">PRIMO</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="secondo">SECONDO</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${patate})` }}><button className="button" onClick={filtra} value="contorno">CONTORNO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${pane})` }}><button ref={ref} className="button" onClick={filtra} value="antipasto">ANTIPASTO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})` }}><button className="button" onClick={filtra} value="primo">PRIMO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="secondo">SECONDO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${patate})` }}><button className="button" onClick={filtra} value="contorno">CONTORNO</button></div>
 
           </div>
           <div class="row photo-grid card1-tall card1-wide">
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${dolci})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${frutta})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${acqua})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
-            <div className="card1 imgSize" style={{ backgroundImage: `url(${vino})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${dolci})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${frutta})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${acqua})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${vino})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
           </div>
         </div>
         {/*MENU*/}
         <div className='clearfix sfondoMenu'>
-          <div className="container-fluid ">
+          <div className="container-fluid">
+
 
             {state.map(menu => (
-              <MenuLista key={menu.id} menu={menu} sezione={menu.sezione} />
+              <MenuLista  key={menu.id} menu={menu} sezione={menu.sezione} />
             ))}
           </div>
         </div>
-        <div className="container-fluid titoloStoria">GALLERIA</div>
+        <Titoli title="GALLERIA" />
         <GalleriaImmagini />
         <div className="container-fluid titoloStoria">CONTATTI</div>
         <Contatti />

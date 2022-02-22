@@ -60,7 +60,16 @@ const GalleriaImmagini = () => {
     <div>
     <Container>
       <Row>
-        <Carousel  cols={3} rows={1} gap={15} loop={true} hideArrow={true} autoplay={2400} mobileBreakpoint={500}  containerStyle={{backgroundColor:"white"}}>
+        <Carousel  cols={3} rows={1} gap={15} loop={true}  hideArrow={true} autoplay={2400} mobileBreakpoint={500}  containerStyle={{backgroundColor:"white"}} responsiveLayout={[
+          {
+            breakpoint: 800,
+            cols: 2
+          },
+          {
+            breakpoint: 500,
+            cols: 1
+          }
+        ]}>
         {images.map(image => (
             <Carousel.Item>
               <Logo>< img className='imgCarousel' src={image.img}/></Logo>

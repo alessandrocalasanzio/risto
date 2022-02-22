@@ -505,14 +505,8 @@
   background-repeat: repeat !important;
   background-position: center center;
 }
-@media screen and (max-width: 600px){
-  .sfondoMenu{
-    background-image: none;
-    background-color:#000 !important;
-    background-size: cover;
-    background-repeat: no-repeat !important;
-  }
-  }
+
+
 .responsive1 {
   padding: 0 0 0 0px !important;
   float: left;
@@ -572,18 +566,8 @@
   margin: 10px 0 10px -20px !important;
   padding: 0 0 0 0 !important;
   justify-content: center;
+  
 }
-.menu-content {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-  margin-top: 5px;
-  font-family: 'Fredericka the Great', cursive !important;
-  font-weight: normal;
-  color: white;
-  vertical-align: baseline;
-}
-
 
 .top{
   font-size: 1.6vw;
@@ -618,13 +602,18 @@
 /*------------------------------------------------------------------------------------------------------*/
 /*CAROSELLO */
 
+
+
 .imgCarousel{
   width: 100%;
-  height: 250px;
+  height: 350px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
+  border-radius: 5% !important;
+  z-index: 999;
+
 }
 
 

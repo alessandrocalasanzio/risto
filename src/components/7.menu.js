@@ -7,13 +7,9 @@ import { Table } from "react-bootstrap";
 class MenuLista extends React.Component {
   
   render() {
-    $(function () {
-      $('[value]').on('click', function () {
-          $('[value]').removeClass('inactive');
-          $(this).addClass('inactive');
-          
-      });
-  });
+
+
+ 
     return (
 
       <div>
