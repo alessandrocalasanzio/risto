@@ -16,7 +16,7 @@ import Card from 'react-bootstrap/Card';
 class TestoContatti extends React.Component {
     render() {
         return (
-            <div className="container-fluid">
+            <div className="container-fluid marginColonna">
 
                <div class="row photo-grid1 card1-tall card1-wide">
                <div className="card2 imgSize1 sfondoContatti1">Via Rosolino Pilo,20(Ang Via Nino Bixio) - Milano

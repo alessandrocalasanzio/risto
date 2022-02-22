@@ -242,7 +242,7 @@ useEffect(() => {
         </div>
         <Titoli title="GALLERIA" />
         <GalleriaImmagini />
-        <div className="container-fluid titoloStoria">CONTATTI</div>
+        <Titoli1 title="CONTATTI" />
         <Contatti />
         <div className="container-fluid footer"><Footer /></div>
       </div>
