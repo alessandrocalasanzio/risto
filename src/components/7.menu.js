@@ -8,21 +8,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class MenuLista extends React.Component {
-  constructor(props){
-    super(props);
-  }
-  componentDidMount(){
-    AOS.init({
-      duration : 1000,
-      once: false,
-      mirror: false,
-    })
-  }
+
   
   render() {
     return (
 
-      <div data-aos="fade-right" data-aos-mirror='false' data-aos-once='true'>
+      <div >
       <h1 className="megCentrato">{this.props.menu.megatitolo}</h1>
 
       <Table borderless  className="responsive1 filterDiv">
