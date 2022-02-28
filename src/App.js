@@ -25,7 +25,8 @@ import sfondomenu from './img/sfondomenu.jpeg';
 
 import $ from "jquery";
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -202,6 +203,7 @@ useEffect(() => {
 
 
 
+
   return (
     <Router basename={window.location.pathname || ''}>
       <div>
@@ -210,7 +212,7 @@ useEffect(() => {
         <ScheletroStoria />
         <Titoli1 title="MENU" />
         {/*BOTTONI MENU*/}
-        <div class="container-fluid">
+        <div class="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
 
           <div class="row photo-grid card1-tall card1-wide">
             <div data-filter="menu"  className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><button className="button" onClick={filtra} value="All">MENU COMPLETO</button></div>
@@ -230,16 +232,16 @@ useEffect(() => {
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${vino})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
           </div>
         </div>
+
         {/*MENU*/}
         <div className='clearfix sfondoMenu'>
           <div className="container-fluid">
-
-
             {state.map(menu => (
               <MenuLista  key={menu.id} menu={menu} sezione={menu.sezione} />
             ))}
           </div>
         </div>
+
         <Titoli title="GALLERIA" />
         <GalleriaImmagini />
         <Titoli1 title="CONTATTI" />

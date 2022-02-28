@@ -3,7 +3,7 @@ import React from "react";
 class Footer extends React.Component{
     render(){
         return(
-<div>
+<div >
 <table class="table">
     <tr>
       <th scope="col"><p className="testSx"><nobr>Privacy Policy<br/> Cookie Policy</nobr></p>

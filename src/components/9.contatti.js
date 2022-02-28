@@ -5,7 +5,7 @@ import TestoContatti from "./10.testoContatti";
 class Contatti extends React.Component{
     render(){
         return(
-            <div>
+            <div className="col-container">
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-6 marginColonna">
