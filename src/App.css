@@ -152,6 +152,9 @@
   padding: 0 5 0 0 !important;
   color: black;
   text-align: center;
+  text-decoration: none !important;
+  z-index: 99999 !important;
+  
 }
 .nav-link-dropdown:hover{
   font-size: 1.1em;
@@ -467,7 +470,13 @@
   border: none !important;
   background-color: transparent !important;
   color: white;
+  text-decoration: none !important;
 }
+
+a:hover{
+  color: white;
+}
+
 .imgSize{
   background-size: cover;
   overflow: hidden;
@@ -774,18 +783,27 @@
   background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/mi.jpg") !important;
   background-size: cover;
   width: 100%;
+  z-index: 1;
 }
 .sfondoContatti2{
   background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.jpg") !important;
   background-size: cover;
+  z-index: 1;
 }
 .sfondoContatti3{
   background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/preno.jpeg") !important;
   background-size: cover;
+  z-index: 1;
 }
 .sfondoContatti4{
   background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/social.jpg") !important;
   background-size: cover;
+  z-index: 1;
+}
+
+.modal-90w{
+z-index: 9999 !important;
+
 }
 
 
@@ -826,6 +844,7 @@
   text-align: center;
   margin: 0 0 0 0 !important;
 }
+
 .testDx{
   text-align: right;
   align-items: right;
@@ -850,7 +869,7 @@
       }
       @media only screen and (max-width: 420px) {
         .testCx{
-          font-size: 12px;
+          font-size: 9px !important;
           text-align: center;
           
         }
@@ -862,6 +881,24 @@ p{
   margin: 0 0 0 0 !important;
 }
 
+.fb{
+  color: white;
+}
+.fb:hover{
+  color: #0d6efd;
+}
+.ig{
+  color: white;
+}
+.ig:hover{
+  color:orange;
+}
+.tree{
+  color: white;
+}
+.tree:hover{
+  color: teal;
+}
 
 
 

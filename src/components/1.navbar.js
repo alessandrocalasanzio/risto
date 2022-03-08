@@ -1,9 +1,13 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import angolo from "../img/EntrataAbruzzo.jpg";
 import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
+import Titoli from "./2.titoli";
+
+import { HashLink as Link } from 'react-router-hash-link';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 
 export default class TransNavigationBar extends Component {
  
@@ -40,6 +44,7 @@ export default class TransNavigationBar extends Component {
         
           <div className="box">
           <img src={angolo} class="img" alt="Responsive image"/>
+         
           <a type="button" href={PDF} download="MenuAngoloDabruzzo.pdf" className="btn btn-danger wiggle">
                     Scarica il nostro Menu
                     </a>
@@ -51,45 +56,52 @@ export default class TransNavigationBar extends Component {
               <Nav className="mx-auto nav-item justify-content-center">
                 <Nav.Item>
                   <Nav.Link>
-                    <Link className="nav-link contrasto" to="/">
+                    <AnchorLink href='#home' className="nav-link contrasto">
                       Home
-                    </Link>
+                    </AnchorLink>
                   </Nav.Link>
                 </Nav.Item>
 
 
                 <NavDropdown title={<span className="nav-link contrasto1">Menu</span>} id="basic-nav-dropdown">
-                  <NavDropdown.Item href="/viewattractions" className="nav-link-dropdown">
-                    Scarica il nostro menu
+                 
+                  <NavDropdown.Item href={PDF} download="MenuAngoloDabruzzo.pdf" className="nav-link-dropdown">
+                   <a className="nav-link-dropdown">
+                   Scarica il nostro menu
+                   </a>
+                  
                   </NavDropdown.Item>
-                  <NavDropdown.Item href="/addattractions" className="nav-link-dropdown">
+
+                  <NavDropdown.Item  className="nav-link-dropdown">
+                  <AnchorLink href='#menu' className="nav-link-dropdown">
                     Guarda il nostro menu
+                    </AnchorLink>
                   </NavDropdown.Item>
                 </NavDropdown>
 
 
                 <Nav.Item>
                   <Nav.Link>
-                    <Link className="nav-link contrasto" to="/about">
-                     <nobr>Chi Siamo</nobr>
-                    </Link>
+                  <AnchorLink href='#chisiamo' className="nav-link contrasto">
+                      <nobr>Chi siamo</nobr>
+                    </AnchorLink>
                   </Nav.Link>
                 </Nav.Item>
 
 
                 <Nav.Item>
                   <Nav.Link>
-                    <Link className="nav-link contrasto1" to="/contact">
+                    <AnchorLink href='#galleria' className="nav-link contrasto1">
                       Galleria
-                    </Link>
+                    </AnchorLink>
                   </Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>
                   <Nav.Link>
-                    <Link className="nav-link contrasto" to="/contact">
+                    <AnchorLink href="#contatti" className="nav-link contrasto" >
                       Contatti
-                    </Link>
+                    </AnchorLink>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

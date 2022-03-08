@@ -47,9 +47,9 @@ class TestoContatti extends React.Component {
                     <tr>
                         <th class=" photo-grid1 card1-tall card1-wide">
                             <div className="card4 imgSize1 sfondoContatti4">I NOSTRI SOCIAL <br />
-                                <img src={facebook} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="40px" height="40px" />
-                                <img src={instagram} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="50px" height="50px" />
-                                <img src={linktree} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="40px" height="40px" />
+                             <a  href="https://it-it.facebook.com/angolodabruzzo1/"><img src={facebook} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="40px" height="40px" /></a>
+                             <a  href="https://www.instagram.com/angolodabruzzo/"><img src={instagram} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="50px" height="50px" /></a>
+                             <a  href="https://linktr.ee/AngoloDabruzzo"><img src={linktree} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="40px" height="40px" /></a> 
 
                             </div>
                         </th>

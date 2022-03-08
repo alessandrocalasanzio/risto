@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, } from "react-router-dom";
 import Navbar from './components/1.navbar';
 import ScheletroStoria from './components/4.scheletroStoria';
 import MenuLista from './components/7.menu';
@@ -22,6 +22,10 @@ import frutta from './img/frutta.jpeg';
 import acqua from './img/acqua.jpeg';
 import vino from './img/vino.jpeg';
 import sfondomenu from './img/sfondomenu.jpeg';
+
+import PDF from "./pdf/MenuAngoloDabruzzo.pdf";
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 import $ from "jquery";
 
@@ -206,16 +210,20 @@ useEffect(() => {
 
   return (
     <Router basename={window.location.pathname || ''}>
+     
+     <section id="home"> </section>
       <div>
         <Navbar />
+        <section id="chisiamo"> </section>
         <Titoli title="CHI SIAMO" />
         <ScheletroStoria />
+        <section id="menu"></section>
         <Titoli1 title="MENU" />
         {/*BOTTONI MENU*/}
         <div class="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
 
           <div class="row photo-grid card1-tall card1-wide">
-            <div data-filter="menu"  className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><button className="button" onClick={filtra} value="All">MENU COMPLETO</button></div>
+            <div data-filter="menu"  className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf">SCARICA IL MENU COMPLETO</a></div>
           </div>
 
           <div class="row photo-grid card1-tall card1-wide">
@@ -241,13 +249,15 @@ useEffect(() => {
             ))}
           </div>
         </div>
-
+              <section id="galleria"></section>
         <Titoli title="GALLERIA" />
         <GalleriaImmagini />
+        <section id="contatti"></section>
         <Titoli1 title="CONTATTI" />
         <Contatti />
         <div className="container-fluid footer"><Footer /></div>
       </div>
+  
     </Router>
   );
 }
