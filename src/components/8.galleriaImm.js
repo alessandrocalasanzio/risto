@@ -28,7 +28,7 @@ const images=[
 const Container = styled.div`
   top: 0;
   width: 100%;
-  background: transparent;
+  background: transparent !important;
   padding: 0;
   margin: 0;
   cursor:auto;
