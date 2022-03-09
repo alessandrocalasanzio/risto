@@ -22,7 +22,7 @@ class TestoContatti extends React.Component {
        
             <Table borderless data-aos="fade-right" data-aos-mirror='true' data-aos-once='false'  >
              
-                    <tr className="spazioCel" >
+                    <tr className="Asstr" >
                         <th class="photo-grid1 card1-tall card1-wide">
                             <div className="card2 imgSize1 sfondoContatti1">Via Rosolino Pilo,20 - Milano
                             </div>
@@ -44,7 +44,7 @@ class TestoContatti extends React.Component {
                         </th>
                     </tr>
 
-                    <tr>
+                    <tr className="Asstr">
                         <th class=" photo-grid1 card1-tall card1-wide">
                             <div className="card4 imgSize1 sfondoContatti4">I NOSTRI SOCIAL <br />
                              <a  href="https://it-it.facebook.com/angolodabruzzo1/"><img src={facebook} alt="Angolo d'Abruzzo" title="Angolo d'Abruzzo" width="40px" height="40px" /></a>
