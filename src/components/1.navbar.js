@@ -8,8 +8,12 @@ import Titoli from "./2.titoli";
 import { HashLink as Link } from 'react-router-hash-link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+import { Textfit } from 'react-textfit';
+
 
 export default class TransNavigationBar extends Component {
+
+
  
   state = {
     headerBreakPoint: 50,
@@ -40,6 +44,7 @@ export default class TransNavigationBar extends Component {
   render() {
    
     return (
+      
       <div>
         
           <div className="box">
@@ -105,11 +110,13 @@ export default class TransNavigationBar extends Component {
                   </Nav.Link>
                 </Nav.Item>
               </Nav>
+
           </Navbar>
         </nav>
 
         
       </div>
+     
     );
   }
 }

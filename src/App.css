@@ -20,6 +20,33 @@
   -ms-flex-direction: row;
   flex-direction: row;
 }
+
+
+@media screen and (min-width: 1290px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 2.3em !important ;
+  }
+}
+
+@media screen and (min-width: 1425px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 2.5em !important ;
+  }
+}
+
+@media screen and (min-width: 1595px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 2.6em !important ;
+  }
+}
+
+@media screen and (min-width: 1698px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 2.7em !important ;
+  }
+}
+
+
 .navbar .navbar-nav .nav-link  {
   color: #000000;
   font-size: 2.2em;
@@ -27,55 +54,15 @@
   margin: -18px 0 -25px 0 !important;
   padding: 0 5 0 0 !important;
   flex-direction: row !important;
+  display: block;
+
 }
 
-@media screen and (min-width: 1525px) {
-  .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 2.6em !important;
-    font-family: 'Bebas Neue', cursive;
-    margin: -18px 0 -25px 0 !important;
-    padding: 0 5 0 0 !important;
-    display: inline-block;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 2.5em  ;
-    font-family: 'Bebas Neue', cursive;
-    margin: -18px 0 -25px 0 !important;
-    padding: 0 5 0 0 !important;
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 1380px) {
-  .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 2.4em ;
-    font-family: 'Bebas Neue', cursive;
-    margin: -18px 0 -25px 0 !important;
-    padding: 0 5 0 0 !important;
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 1300px) {
-  .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 2.3em  ;
-    font-family: 'Bebas Neue', cursive;
-    margin: -18px 0 -25px 0 !important;
-    padding: 0 5 0 0 !important;
-    display: inline-block;
-  }
-}
 
 @media screen and (max-width: 1175px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 2.05em !important;
+    font-size: 2.05em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding: 0 5 0 0 !important;
@@ -85,7 +72,7 @@
 @media screen and (max-width: 1022px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.9em !important;
+    font-size: 1.9em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding: 0 5 0 0 !important;
@@ -95,7 +82,7 @@
 @media screen and (max-width: 954px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.8em !important;
+    font-size: 1.8em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding: 0 5 0 0 !important;
@@ -105,7 +92,7 @@
 @media screen and (max-width: 895px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.7em !important;
+    font-size: 1.7em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -30px 0 !important;
     padding: 0 5 0 0 !important;
@@ -115,7 +102,7 @@
 @media screen and (max-width: 778px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.5em !important;
+    font-size: 1.5em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding: 0 5 0 0 !important;
@@ -125,7 +112,7 @@
 @media screen and (max-width: 678px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.3em !important;
+    font-size: 1.3em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding: 0 5 0 0 !important;
@@ -135,7 +122,7 @@
 @media screen and (max-width: 576px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.2em !important;
+    font-size: 1.2em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding-top: 0px !important;
@@ -147,13 +134,21 @@
 @media screen and (max-width: 475px) {
   .navbar .navbar-nav .nav-link {
     color: #000000;
-    font-size: 1.05em !important;
+    font-size: 1.05em ;
     font-family: 'Bebas Neue', cursive;
     margin: -18px 0 -25px 0 !important;
     padding-left: 5px;
     padding-right: 5px;
     display: inline-block;
   }
+
+
+  
+
+
+  
+
+
   .noImg{
     background-image: url('./img/AngoloLogo.png');
     background-size: cover;
