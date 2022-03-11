@@ -192,7 +192,7 @@
   color: rgb(165, 34, 34) !important;
 }
 .contrasto1:hover{
-  color: gray !important;
+  color: #FFFFFF !important;
 }
 .nav-link{
  display:inline-block !important; /*Mi permette di avere gli elementi delle Navbar allineati*/
