@@ -68,10 +68,10 @@ export default class TransNavigationBar extends Component {
                 </Nav.Item>
 
 
-                <NavDropdown title={<span className="nav-link contrasto1">Menu</span>} id="basic-nav-dropdown">
+                <NavDropdown title={<span className="nav-link contrasto">Menu</span>} id="basic-nav-dropdown">
                  
                   <NavDropdown.Item href={PDF} download="MenuAngoloDabruzzo.pdf" className="nav-link-dropdown">
-                   <a className="nav-link-dropdown">
+                   <a className="nav-link-dropdown contrasto">
                    Scarica il nostro menu
                    </a>
                   
@@ -96,7 +96,7 @@ export default class TransNavigationBar extends Component {
 
                 <Nav.Item>
                   <Nav.Link>
-                    <AnchorLink href='#galleria' className="nav-link contrasto1">
+                    <AnchorLink href='#galleria' className="nav-link contrasto">
                       Galleria
                     </AnchorLink>
                   </Nav.Link>
