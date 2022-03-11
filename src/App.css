@@ -727,6 +727,11 @@ a:hover{
 /*TESTO CONTATTI*/
 .Asstr{
   position: relative;
+ 
+}
+.centrotr{
+  text-align: center;
+  align-items: center;
 }
 .photo-grid1{
   display:grid;
@@ -787,11 +792,19 @@ a:hover{
   font-family:'Bebas Neue', cursive;
   color: black !important;
   font-size: 2.5vw;
-  padding-top: 20px !important;
   align-items: center !important; 
   text-align: center !important;
   z-index: 9999;
   opacity: none !important;
+  padding-top: 0px !important;
+}
+.card5{
+  font-family:'Bebas Neue', cursive;
+  color: black !important;
+  font-size: 2.5vw;
+  align-items: center !important; 
+  text-align: center !important;
+  padding: 15px 0 0 0 !important;
 }
 
 
@@ -826,6 +839,7 @@ a:hover{
     text-align: center !important;
     z-index: 9999;
     opacity: none !important;
+    padding-top: 0px !important;
   }
   }
 
@@ -905,12 +919,86 @@ a:hover{
   background-size: cover;
   z-index: 1;
 }
+.sfondoContatti5{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.jpg") !important;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  align-items: center !important;
+  padding-top: 40px !important;
+}
+.sfondoContatti6{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/ig.jfif") !important;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  align-items: center !important;
+  padding-top: 40px !important;
+}
+.sfondoContatti7{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.png") !important;
+  background-size: cover;
+  background-position: right;
+  height: 100%;
+  align-items: center !important;
+  padding-top: 40px !important;
+}
+
+
+@media screen and (max-width: 580px){
+  .sfondoContatti5{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.jpg") !important;
+    background-size: cover;
+    background-position-x: 85%;
+    height: 100%;
+    align-items: center !important;
+    padding-top: 40px !important;
+  }
+  .sfondoContatti6{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/ig.jfif") !important;
+    background-size: cover;
+    background-position-x: 70%;
+    height: 100%;
+    align-items: center !important;
+    padding-top: 40px !important;
+  }
+  .sfondoContatti7{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.png") !important;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    align-items: center !important;
+    padding-top: 40px !important;
+  }
+}
+
 
 .modal-90w{
 z-index: 9999 !important;
 
 }
 
+.fb1{
+  color: black;
+  text-decoration: none;
+}
+.fb1:hover{
+  color: #0d6efd;
+}
+.ig1{
+  color: black;
+  text-decoration: none;
+}
+.ig1:hover{
+  color:#FF7514;
+}
+.tree1{
+  color: black;
+  text-decoration: none;
+}
+.tree1:hover{
+  color: teal;
+}
 
 
 
