@@ -1,7 +1,7 @@
 import React from "react";
 import Fuori from "../img/Fuori.jpg";
-import Panorama from "../img/Panorama.png";
-import angoloGrigio from "../img/angoloGrigio.png";
+import Panorama from "../img/Panorama.jpeg";
+import angoloGrigio from "../img/angoloGrigio.jpeg";
 import Carosello from "./5.carosello";
 import Testocarosello from "./6.testocarosello";
 

@@ -4,7 +4,7 @@ import Carousel from 'react-grid-carousel'
 import pasta from '../img/pastaang.jpg';
 import pane from '../img/paneang.jpg';
 import burrata from '../img/burrataang.jpg';
-import arrosticini from'../img/arrosticiniang.jpg';
+import arrosticini from'../img/arrosticiniang.jpeg';
 import vasi from '../img/vasiang.jpg';
 import murales from '../img/muralesang.jpg';
 import lavagna from '../img/lavagnanag.jpg';

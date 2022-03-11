@@ -1,8 +1,8 @@
 import React from "react";
 import Fuori from "../img/Fuori.jpg";
-import Panorama from "../img/Panorama.png";
-import angoloGrigio from "../img/angoloGrigio.png";
-import entrataAbruzzo from "../img/EntrataAbruzzo1.jpg";
+import Panorama from "../img/Panorama.jpeg";
+import angoloGrigio from "../img/angoloGrigio.jpeg";
+import entrataAbruzzo from "../img/EntrataAbruzzo1.jpeg";
 import Carousel from 'react-bootstrap/Carousel';
 
 class Carosello extends React.Component {

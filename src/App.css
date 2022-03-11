@@ -607,7 +607,7 @@ a:hover{
 /*MENU*/
 
 .sfondoMenu{
-  background-image:  url("img/blackboard2.jpg");
+  background-image:  url("img/blackboard2.jpeg");
   background-size: cover;
   background-repeat: repeat !important;
   background-position: center center;
@@ -919,7 +919,7 @@ a:hover{
   z-index: 1;
 }
 .sfondoContatti2{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.jpg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.jpeg") !important;
   background-size: cover;
   z-index: 1;
 }
