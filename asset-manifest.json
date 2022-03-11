@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.eddc06d7.chunk.css",
+    "main.css": "/risto/static/css/main.076b1b84.chunk.css",
     "main.js": "/risto/static/js/main.157aec32.chunk.js",
     "main.js.map": "/risto/static/js/main.157aec32.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.053681d3.js",
@@ -12,7 +12,7 @@
     "static/js/3.917f88a2.chunk.js.map": "/risto/static/js/3.917f88a2.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.eddc06d7.chunk.css.map": "/risto/static/css/main.eddc06d7.chunk.css.map",
+    "static/css/main.076b1b84.chunk.css.map": "/risto/static/css/main.076b1b84.chunk.css.map",
     "static/js/2.71912a56.chunk.js.LICENSE.txt": "/risto/static/js/2.71912a56.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.5ec48cc6.jpg",
     "static/media/EntrataAbruzzo.6ace9c04.jpg": "/risto/static/media/EntrataAbruzzo.6ace9c04.jpg",
@@ -59,7 +59,7 @@
     "static/js/runtime-main.053681d3.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.71912a56.chunk.js",
-    "static/css/main.eddc06d7.chunk.css",
+    "static/css/main.076b1b84.chunk.css",
     "static/js/main.157aec32.chunk.js"
   ]
 }
