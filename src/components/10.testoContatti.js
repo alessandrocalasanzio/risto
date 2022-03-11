@@ -24,7 +24,7 @@ class TestoContatti extends React.Component {
 
                 <tr className="Asstr" >
                     <th class="photo-grid1 card1-tall card1-wide">
-                        <div className="card2 imgSize1 sfondoContatti1">Via Rosolino Pilo,20 - Milano
+                        <div className="card2 imgSize1 sfondoContatti1 paddingVia">Via Rosolino Pilo,20 - Milano
                         </div>
                     </th>
                 </tr>
