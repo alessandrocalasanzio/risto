@@ -814,8 +814,6 @@ a:hover{
     font-family:'Bebas Neue', cursive;
     color: black !important;
     font-size: 4.5vw;
-    padding-top: 50px !important;
-
     align-items: center;
     text-align: center;
     opacity: none !important;
@@ -865,6 +863,7 @@ a:hover{
     opacity: none !important;
   }
   }
+
   @media screen and (min-width: 1550px){
     .card2{
       border-radius: 0px !important;
@@ -999,17 +998,6 @@ z-index: 9999 !important;
 .tree1:hover{
   color: teal;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*------------------------------------------------------------------------------------------------------*/
