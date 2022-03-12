@@ -208,8 +208,8 @@ function App() {
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
-      setLoading(true)
-    },5000)
+      setLoading(false)
+    },9000)
   },[]);
 
 
@@ -217,7 +217,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 8002);
+    }, 9200);
   }, []);
 
 
