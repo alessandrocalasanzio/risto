@@ -208,15 +208,19 @@ function App() {
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
-      setLoading(false)
-    },9000)
-  },[])
+      setLoading(true)
+    },5000)
+  },[]);
+
+
 
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 9001);
+    }, 8002);
   }, []);
+
+
 
   $(function() {
     AOS.init();
