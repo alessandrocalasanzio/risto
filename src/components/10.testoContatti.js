@@ -8,12 +8,24 @@ import tel from "../img/preno.jpeg";
 import social from "../img/social.jpg";
 import linktree from "../img/linktree.png";
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Table from 'react-bootstrap/Table';
 import Card from 'react-bootstrap/Card';
 
 class TestoContatti extends React.Component {
+    constructor(props){
+        super(props);
+    }
+
+    componentDidMount(){
+        AOS.init({
+            duration : 1000,
+            once: false,
+            mirror: true
+          })
+    }
     render() {
         return (
 

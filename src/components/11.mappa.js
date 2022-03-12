@@ -1,10 +1,22 @@
 import React from 'react';
 import Iframe from 'react-iframe';
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 class Mappa extends React.Component{
+   constructor(props){
+      super(props);
+  }
+
+  componentDidMount(){
+      AOS.init({
+          duration : 1000,
+          once: false,
+          mirror: true
+        })
+  }
    
    render(){
 

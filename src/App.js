@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef} from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { HashRouter as Router, Switch, Route, } from "react-router-dom";
@@ -26,12 +26,15 @@ import sfondomenu from './img/sfondomenu.jpeg';
 import PDF from "./pdf/MenuAngoloDabruzzo.pdf";
 import { HashLink as Link } from 'react-router-hash-link';
 
-
+import { BeatLoader } from "react-spinners";
+import Loading from './components/Loading';
 import $ from "jquery";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import ClipLoader from "react-spinners/ClipLoader";
+import { css } from "@emotion/react";
 
 
 const menus = [
@@ -49,7 +52,7 @@ const menus = [
   { id: 11, titolo: "Burrata", prezzo: "10", sezione: "antipasto", numero: "00", dollaro: "€" },
   { id: 12, titolo: "Bufala", prezzo: "10", sezione: "antipasto", numero: "00", dollaro: "€" },
   {},
-  
+
   { id: 13, megatitolo: "PRIMI", titolo: "Tris di chitarra, schiaffoni e gnocchi", prezzo: "10", sezione: "primo", numero: "00", dollaro: "€" },
   { id: 14, titolo: "Zuppa di cardi all’Abruzzese", prezzo: "9", sezione: "primo", numero: "00", dollaro: "€" },
   { id: 15, titolo: "Paccheri alla Giannino", prezzo: "11", sezione: "primo", numero: "00", dollaro: "€" },
@@ -101,7 +104,7 @@ const menus = [
   { id: 60, titolo: "Filetto di maialino Abruzzese", prezzo: "17", sezione: "secondo", numero: "00", dollaro: "€" },
   { id: 61, titolo: "Pecora alla callara", prezzo: "17", sezione: "secondo", numero: "00", dollaro: "€" },
   {},
- 
+
   { id: 62, megatitolo: "CONTORNI", titolo: "Patate Fritte", prezzo: "4", sezione: "contorno", numero: "00", dollaro: "€" },
   { id: 63, titolo: "Insalata mista", prezzo: "4", sezione: "contorno", numero: "00", dollaro: "€" },
   { id: 64, titolo: "Insalata di pomodori, finocchi.", prezzo: "4", sezione: "contorno", numero: "00", dollaro: "€" },
@@ -121,7 +124,7 @@ const menus = [
   { id: 76, titolo: "Pannacotta", prezzo: "5", sezione: "dolci", numero: "00", dollaro: "€" },
   { id: 77, titolo: "Dolci del giorno con gelato", prezzo: "6", sezione: "dolci", numero: "00", dollaro: "€" },
   {},
- 
+
   { id: 78, megatitolo: "FRUTTA", titolo: "Frutta di stagione", prezzo: "5,50/6,50", sezione: "frutta", numero: "00", dollaro: "€" },
   { id: 79, titolo: "Ananas al Maraschino", prezzo: "6", sezione: "frutta", numero: "00", dollaro: "€" },
 
@@ -129,7 +132,7 @@ const menus = [
   { id: 81, titolo: "Bibita in lattina", prezzo: "6", sezione: "bevande", numero: "00", dollaro: "€" },
   { id: 82, titolo: "Birra (66 cl)", prezzo: "6", sezione: "bevande", numero: "00", dollaro: "€" },
   {},
- 
+
   { id: 83, megatitolo: "VINI", titolo: "VINI DELLA CASA IN CARAFFA:1/4 Litro", prezzo: "3", sezione: "vino", numero: "00", dollaro: "€" },
   { id: 84, titolo: "Montepulciano d’Abruzzo", prezzo: "17", sezione: "vino", numero: "00", dollaro: "€" },
 
@@ -151,7 +154,14 @@ const menus = [
 function App() {
 
   const [state, setState] = useState(menus);
-  const ref= useRef(null);
+  const ref = useRef(null);
+
+  useEffect(() => {
+    setLoading(true)
+    setTimeout(() => {
+      setLoading(false)
+    }, 8000)
+  }, [])
 
   const filtra = (e) => {
     let word = e.target.value;
@@ -193,25 +203,41 @@ function App() {
     }
   }
 
- 
-const myfunc=()=>{
-  console.log("");
-};
 
-useEffect(() => {
-  setTimeout(() => {
-    ref.current.click();
-  },10);
-},[]);
+  const myfunc = () => {
+    console.log("");
+  };
 
 
 
+  const[loading, setLoading]=useState(false);
+
+  useEffect(()=>{
+    setLoading(true)
+    setTimeout(()=>{
+      setLoading(false)
+    },5000)
+  },[])
+
+  useEffect(() => {
+    setTimeout(() => {
+      ref.current.click();
+    }, 5001);
+  }, []);
+
+  $(function() {
+    AOS.init();
+});
 
 
   return (
+
+
     <Router basename={window.location.pathname || ''}>
-     
-     <section id="home"> </section>
+
+      <section id="home"></section>
+      {loading==true?
+      <Loading/>:
       <div>
         <Navbar />
         <section id="chisiamo"> </section>
@@ -223,7 +249,7 @@ useEffect(() => {
         <div class="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
 
           <div class="row photo-grid card1-tall card1-wide">
-            <div data-filter="menu"  className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf">SCARICA IL MENU COMPLETO</a></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf">SCARICA IL MENU COMPLETO</a></div>
           </div>
 
           <div class="row photo-grid card1-tall card1-wide">
@@ -245,11 +271,11 @@ useEffect(() => {
         <div className='clearfix sfondoMenu'>
           <div className="container-fluid">
             {state.map(menu => (
-              <MenuLista  key={menu.id} menu={menu} sezione={menu.sezione} />
+              <MenuLista key={menu.id} menu={menu} sezione={menu.sezione} />
             ))}
           </div>
         </div>
-              <section id="galleria"></section>
+        <section id="galleria"></section>
         <Titoli title="GALLERIA" />
         <GalleriaImmagini />
         <section id="contatti"></section>
@@ -257,7 +283,7 @@ useEffect(() => {
         <Contatti />
         <div className="container-fluid footer"><Footer /></div>
       </div>
-  
+      }
     </Router>
   );
 }
