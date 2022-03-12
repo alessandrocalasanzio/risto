@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.37697627.chunk.css",
-    "main.js": "/risto/static/js/main.54764136.chunk.js",
-    "main.js.map": "/risto/static/js/main.54764136.chunk.js.map",
-    "runtime-main.js": "/risto/static/js/runtime-main.bf8c13fb.js",
-    "runtime-main.js.map": "/risto/static/js/runtime-main.bf8c13fb.js.map",
+    "main.css": "/risto/static/css/main.0fd6e403.chunk.css",
+    "main.js": "/risto/static/js/main.a5cfa303.chunk.js",
+    "main.js.map": "/risto/static/js/main.a5cfa303.chunk.js.map",
+    "runtime-main.js": "/risto/static/js/runtime-main.1d34bb10.js",
+    "runtime-main.js.map": "/risto/static/js/runtime-main.1d34bb10.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
-    "static/js/2.79b3d21a.chunk.js": "/risto/static/js/2.79b3d21a.chunk.js",
-    "static/js/2.79b3d21a.chunk.js.map": "/risto/static/js/2.79b3d21a.chunk.js.map",
-    "static/js/3.a7e18dfc.chunk.js": "/risto/static/js/3.a7e18dfc.chunk.js",
-    "static/js/3.a7e18dfc.chunk.js.map": "/risto/static/js/3.a7e18dfc.chunk.js.map",
+    "static/js/2.1f22ac66.chunk.js": "/risto/static/js/2.1f22ac66.chunk.js",
+    "static/js/2.1f22ac66.chunk.js.map": "/risto/static/js/2.1f22ac66.chunk.js.map",
+    "static/js/3.2f02992c.chunk.js": "/risto/static/js/3.2f02992c.chunk.js",
+    "static/js/3.2f02992c.chunk.js.map": "/risto/static/js/3.2f02992c.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.37697627.chunk.css.map": "/risto/static/css/main.37697627.chunk.css.map",
-    "static/js/2.79b3d21a.chunk.js.LICENSE.txt": "/risto/static/js/2.79b3d21a.chunk.js.LICENSE.txt",
+    "static/css/main.0fd6e403.chunk.css.map": "/risto/static/css/main.0fd6e403.chunk.css.map",
+    "static/js/2.1f22ac66.chunk.js.LICENSE.txt": "/risto/static/js/2.1f22ac66.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.866b9d49.jpeg",
+    "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
+    "static/media/Ball1.79a22971.gif": "/risto/static/media/Ball1.79a22971.gif",
+    "static/media/Ball2.0c6950e6.gif": "/risto/static/media/Ball2.0c6950e6.gif",
     "static/media/EntrataAbruzzo.a9599868.jpeg": "/risto/static/media/EntrataAbruzzo.a9599868.jpeg",
     "static/media/EntrataAbruzzo1.af61f145.jpeg": "/risto/static/media/EntrataAbruzzo1.af61f145.jpeg",
     "static/media/Fuori.f89d3263.jpg": "/risto/static/media/Fuori.f89d3263.jpg",
@@ -46,10 +49,10 @@
     "static/media/vivi.2428e37a.svg": "/risto/static/media/vivi.2428e37a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf8c13fb.js",
+    "static/js/runtime-main.1d34bb10.js",
     "static/css/2.7ac31146.chunk.css",
-    "static/js/2.79b3d21a.chunk.js",
-    "static/css/main.37697627.chunk.css",
-    "static/js/main.54764136.chunk.js"
+    "static/js/2.1f22ac66.chunk.js",
+    "static/css/main.0fd6e403.chunk.css",
+    "static/js/main.a5cfa303.chunk.js"
   ]
 }
