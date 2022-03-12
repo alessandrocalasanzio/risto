@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.e3612152.chunk.css",
-    "main.js": "/risto/static/js/main.1e94f4e0.chunk.js",
-    "main.js.map": "/risto/static/js/main.1e94f4e0.chunk.js.map",
-    "runtime-main.js": "/risto/static/js/runtime-main.053681d3.js",
-    "runtime-main.js.map": "/risto/static/js/runtime-main.053681d3.js.map",
+    "main.css": "/risto/static/css/main.5039d251.chunk.css",
+    "main.js": "/risto/static/js/main.6a4a0ae5.chunk.js",
+    "main.js.map": "/risto/static/js/main.6a4a0ae5.chunk.js.map",
+    "runtime-main.js": "/risto/static/js/runtime-main.34d10b96.js",
+    "runtime-main.js.map": "/risto/static/js/runtime-main.34d10b96.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
-    "static/js/2.71912a56.chunk.js": "/risto/static/js/2.71912a56.chunk.js",
-    "static/js/2.71912a56.chunk.js.map": "/risto/static/js/2.71912a56.chunk.js.map",
-    "static/js/3.917f88a2.chunk.js": "/risto/static/js/3.917f88a2.chunk.js",
-    "static/js/3.917f88a2.chunk.js.map": "/risto/static/js/3.917f88a2.chunk.js.map",
+    "static/js/2.a5d9d3df.chunk.js": "/risto/static/js/2.a5d9d3df.chunk.js",
+    "static/js/2.a5d9d3df.chunk.js.map": "/risto/static/js/2.a5d9d3df.chunk.js.map",
+    "static/js/3.8b80bde6.chunk.js": "/risto/static/js/3.8b80bde6.chunk.js",
+    "static/js/3.8b80bde6.chunk.js.map": "/risto/static/js/3.8b80bde6.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.e3612152.chunk.css.map": "/risto/static/css/main.e3612152.chunk.css.map",
-    "static/js/2.71912a56.chunk.js.LICENSE.txt": "/risto/static/js/2.71912a56.chunk.js.LICENSE.txt",
+    "static/css/main.5039d251.chunk.css.map": "/risto/static/css/main.5039d251.chunk.css.map",
+    "static/js/2.a5d9d3df.chunk.js.LICENSE.txt": "/risto/static/js/2.a5d9d3df.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.866b9d49.jpeg",
     "static/media/EntrataAbruzzo.a9599868.jpeg": "/risto/static/media/EntrataAbruzzo.a9599868.jpeg",
     "static/media/EntrataAbruzzo1.af61f145.jpeg": "/risto/static/media/EntrataAbruzzo1.af61f145.jpeg",
@@ -54,10 +54,10 @@
     "static/media/vivi.2428e37a.svg": "/risto/static/media/vivi.2428e37a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.053681d3.js",
+    "static/js/runtime-main.34d10b96.js",
     "static/css/2.7ac31146.chunk.css",
-    "static/js/2.71912a56.chunk.js",
-    "static/css/main.e3612152.chunk.css",
-    "static/js/main.1e94f4e0.chunk.js"
+    "static/js/2.a5d9d3df.chunk.js",
+    "static/css/main.5039d251.chunk.css",
+    "static/js/main.6a4a0ae5.chunk.js"
   ]
 }
