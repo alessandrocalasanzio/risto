@@ -53,8 +53,6 @@ const Logo = styled.div`
 
 
 
-
-
 const GalleriaImmagini = () => {
   return (
     <div>
@@ -70,9 +68,9 @@ const GalleriaImmagini = () => {
             cols: 1
           }
         ]}>
-        {images.map(image => (
-            <Carousel.Item>
-              <Logo>< img className='imgCarousel' src={image.img}/></Logo>
+        {images.map((image,index) => (
+            <Carousel.Item key={index}>
+              <Logo >< img alt="Carousel" className='imgCarousel' src={image.img}/></Logo>
             </Carousel.Item>
           ))}
         </Carousel>

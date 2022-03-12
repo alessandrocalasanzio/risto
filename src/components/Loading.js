@@ -1,5 +1,4 @@
 import React from "react";
-import {Audio} from "react-loader-spinner";
 import { css } from "@emotion/react";
 
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";

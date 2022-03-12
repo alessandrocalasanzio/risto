@@ -1,11 +1,7 @@
 import React from "react";
-import sfondomenu from '../img/sfondomenu.jpeg';
-import nero from '../img/nero.jpg';
-import $ from "jquery";
+
 import { Table } from "react-bootstrap";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 class MenuLista extends React.Component {
 

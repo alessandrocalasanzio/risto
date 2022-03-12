@@ -1,18 +1,8 @@
 import React from "react";
-import $ from "jquery";
-import ScaleText from "react-scale-text";
 
-import michelin from "../img/michelin.jpg";
-import mich from "../img/mich.png";
-import guida from "../img/guidaMichelin.png";
-import gambero from "../img/gambero.png";
-import espresso from "../img/espresso.png";
-import slurpy from "../img/slurpy.png";
-import guru from "../img/guru.png";
 
 import GalleriaLogo from "./galleriaLogo";
 
-import Table from 'react-bootstrap/Table'
 class Testocarosello extends React.Component {
 
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { HashRouter as Router, Switch, Route, } from "react-router-dom";
+import { HashRouter as Router,} from "react-router-dom";
 import Navbar from './components/1.navbar';
 import ScheletroStoria from './components/4.scheletroStoria';
 import MenuLista from './components/7.menu';
@@ -12,7 +12,6 @@ import Titoli from './components/2.titoli';
 import Titoli1 from './components/3.titoli1';
 
 import menu from './img/menu1.jpg';
-import menuguidato from './img/menuguidato.jpeg';
 import pane from './img/pane.jpeg';
 import carbonara from './img/carbonara.jpeg';
 import carne from './img/carne.jpeg';
@@ -21,20 +20,16 @@ import dolci from './img/dolci.jpeg';
 import frutta from './img/frutta.jpeg';
 import acqua from './img/acqua.jpeg';
 import vino from './img/vino.jpeg';
-import sfondomenu from './img/sfondomenu.jpeg';
 
 import PDF from "./pdf/MenuAngoloDabruzzo.pdf";
-import { HashLink as Link } from 'react-router-hash-link';
 
-import { BeatLoader } from "react-spinners";
 import Loading from './components/Loading';
 import $ from "jquery";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import ClipLoader from "react-spinners/ClipLoader";
-import { css } from "@emotion/react";
+
 
 
 const menus = [
@@ -204,9 +199,7 @@ function App() {
   }
 
 
-  const myfunc = () => {
-    console.log("");
-  };
+
 
 
 
@@ -236,7 +229,7 @@ function App() {
     <Router basename={window.location.pathname || ''}>
 
       <section id="home"></section>
-      {loading==true?
+      {loading===true?
       <Loading/>:
       <div>
         <Navbar />
@@ -246,20 +239,20 @@ function App() {
         <section id="menu"></section>
         <Titoli1 title="MENU" />
         {/*BOTTONI MENU*/}
-        <div class="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
+        <div className="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
 
-          <div class="row photo-grid card1-tall card1-wide">
+          <div className="row photo-grid card1-tall card1-wide">
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf">SCARICA IL MENU COMPLETO</a></div>
           </div>
 
-          <div class="row photo-grid card1-tall card1-wide">
+          <div className="row photo-grid card1-tall card1-wide">
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${pane})` }}><button ref={ref} className="button" onClick={filtra} value="antipasto">ANTIPASTO</button></div>
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carbonara})` }}><button className="button" onClick={filtra} value="primo">PRIMO</button></div>
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="secondo">SECONDO</button></div>
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${patate})` }}><button className="button" onClick={filtra} value="contorno">CONTORNO</button></div>
 
           </div>
-          <div class="row photo-grid card1-tall card1-wide">
+          <div className="row photo-grid card1-tall card1-wide">
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${dolci})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${frutta})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${acqua})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
@@ -270,8 +263,8 @@ function App() {
         {/*MENU*/}
         <div className='clearfix sfondoMenu'>
           <div className="container-fluid">
-            {state.map(menu => (
-              <MenuLista key={menu.id} menu={menu} sezione={menu.sezione} />
+            {state.map((menu,index) => (
+              <MenuLista key={index} menu={menu} sezione={menu.sezione} />
             ))}
           </div>
         </div>

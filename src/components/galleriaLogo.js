@@ -7,7 +7,6 @@ import gambero from "../img/gambero.png";
 import espresso from "../img/espresso.png";
 import slurpy from "../img/slurpy.png";
 import guru from "../img/guru.svg";
-import trip from "../img/trip.png";
 import vivi from "../img/vivi.svg";
 
 
@@ -67,9 +66,9 @@ const GalleriaLogo = () => {
             cols: 3
           }
         ]}>
-        {images.map(image => (
-            <Carousel.Item>
-              <Logo>< img className='imgLogo' src={image.img}/></Logo>
+        {images.map((image,index) => (
+            <Carousel.Item key={index}>
+              <Logo >< img alt="logo" className='imgLogo' src={image.img}/></Logo>
             </Carousel.Item>
           ))}
         </Carousel>

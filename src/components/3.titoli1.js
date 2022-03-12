@@ -1,13 +1,9 @@
 import React from "react";
-import {Waypoint} from "react-waypoint";
-import $ from "jquery";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class Titoli1 extends React.Component{
-  constructor(props){
-    super(props);
-  }
+ 
   componentDidMount(){
     AOS.init({
       duration : 1000,

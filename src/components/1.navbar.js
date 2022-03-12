@@ -3,12 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import angolo from "../img/EntrataAbruzzo.jpeg";
 import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
-import Titoli from "./2.titoli";
 
-import { HashLink as Link } from 'react-router-hash-link';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
-import { Textfit } from 'react-textfit';
+import { Link} from "react-router-dom";
 
 
 export default class TransNavigationBar extends Component {
@@ -48,20 +46,21 @@ export default class TransNavigationBar extends Component {
       <div>
         
           <div className="box">
-          <img src={angolo} class="img" alt="Responsive image"/>
+          <img src={angolo} className="img" alt="Angolo"/>
          
           <a type="button" href={PDF} download="MenuAngoloDabruzzo.pdf" className="btn btn-danger wiggle">
                     Scarica il nostro Menu
-                    </a>
+           </a>
           </div>
         <nav className={`navbar navbar-expand-lg fixed-top ${this.state.activeHeader ? "test1" : ""}`}>
         <a className={`navbar-brand ${this.state.activeHeader ? "noImg" : ""}`}href="#1">
             </a>
+
           <Navbar> 
               <Nav className="mx-auto nav-item justify-content-center">
-                <Nav.Item>
-                  <Nav.Link>
-                    <AnchorLink href='#home' className="nav-link contrasto">
+                <Nav.Item >
+                  <Nav.Link as="li">
+                    <AnchorLink  href='#home' className="nav-link contrasto">
                       Home
                     </AnchorLink>
                   </Nav.Link>
@@ -70,23 +69,20 @@ export default class TransNavigationBar extends Component {
 
                 <NavDropdown title={<span className="nav-link contrasto">Menu</span>} id="basic-nav-dropdown">
                  
-                  <NavDropdown.Item href={PDF} download="MenuAngoloDabruzzo.pdf" className="nav-link-dropdown">
-                   <a className="nav-link-dropdown contrasto">
+                  <NavDropdown.Item as="li" tag="a" href={PDF} download="MenuAngoloDabruzzo.pdf" className="nav-link-dropdown contrasto">
                    Scarica il nostro menu
-                   </a>
-                  
                   </NavDropdown.Item>
 
-                  <NavDropdown.Item  className="nav-link-dropdown">
-                  <AnchorLink href='#menu' className="nav-link-dropdown">
+                  <NavDropdown.Item as="li"  className="nav-link-dropdown">
+                  <AnchorLink  href='#menu' className="nav-link-dropdown">
                     Guarda il nostro menu
                     </AnchorLink>
                   </NavDropdown.Item>
                 </NavDropdown>
 
 
-                <Nav.Item>
-                  <Nav.Link>
+                <Nav.Item >
+                  <Nav.Link as="li" >
                   <AnchorLink href='#chisiamo' className="nav-link contrasto">
                       <nobr>Chi siamo</nobr>
                     </AnchorLink>
@@ -94,17 +90,17 @@ export default class TransNavigationBar extends Component {
                 </Nav.Item>
 
 
-                <Nav.Item>
-                  <Nav.Link>
-                    <AnchorLink href='#galleria' className="nav-link contrasto">
+                <Nav.Item  >
+                  <Nav.Link as="li" >
+                    <AnchorLink  href='#galleria' className="nav-link contrasto">
                       Galleria
                     </AnchorLink>
                   </Nav.Link>
                 </Nav.Item>
 
-                <Nav.Item>
-                  <Nav.Link>
-                    <AnchorLink href="#contatti" className="nav-link contrasto" >
+                <Nav.Item >
+                  <Nav.Link as="li">
+                    <AnchorLink  href="#contatti" className="nav-link contrasto" >
                       Contatti
                     </AnchorLink>
                   </Nav.Link>

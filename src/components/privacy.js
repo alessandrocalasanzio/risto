@@ -1,6 +1,5 @@
 import React  from "react";
 import Modal from 'react-bootstrap/Modal'
-import { Button } from "react-bootstrap";
 import { useState } from 'react';
 
 function Privacy() {
@@ -10,7 +9,7 @@ function Privacy() {
   
     return (
       <>
-        <a type="button" variant="primary" onClick={() => setShow(true)}>
+        <a  type="button" variant="primary" onClick={() => setShow(true)}>
           Privacy Policy
         </a>
   

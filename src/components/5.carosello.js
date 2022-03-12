@@ -1,5 +1,4 @@
 import React from "react";
-import Fuori from "../img/Fuori.jpg";
 import Panorama from "../img/Panorama.jpeg";
 import angoloGrigio from "../img/angoloGrigio.jpeg";
 import entrataAbruzzo from "../img/EntrataAbruzzo1.jpeg";
