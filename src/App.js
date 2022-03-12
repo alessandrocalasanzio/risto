@@ -209,13 +209,13 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },5000)
+    },9000)
   },[])
 
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 5001);
+    }, 9001);
   }, []);
 
   $(function() {
