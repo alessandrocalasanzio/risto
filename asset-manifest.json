@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/risto/static/css/main.c2054e6c.chunk.css",
-    "main.js": "/risto/static/js/main.d7e1de41.chunk.js",
-    "main.js.map": "/risto/static/js/main.d7e1de41.chunk.js.map",
+    "main.js": "/risto/static/js/main.df859229.chunk.js",
+    "main.js.map": "/risto/static/js/main.df859229.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.1d34bb10.js",
     "runtime-main.js.map": "/risto/static/js/runtime-main.1d34bb10.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
@@ -23,35 +23,35 @@
     "static/media/Fuori.8e6c8308.avif": "/risto/static/media/Fuori.8e6c8308.avif",
     "static/media/MenuAngoloDabruzzo.e3264967.pdf": "/risto/static/media/MenuAngoloDabruzzo.e3264967.pdf",
     "static/media/Panorama.be539445.avif": "/risto/static/media/Panorama.be539445.avif",
-    "static/media/acqua.bda5f5dc.jpeg": "/risto/static/media/acqua.bda5f5dc.jpeg",
+    "static/media/acqua.856cb576.avif": "/risto/static/media/acqua.856cb576.avif",
     "static/media/angolo.81e13732.avif": "/risto/static/media/angolo.81e13732.avif",
     "static/media/angoloGrigio.4c7d99c3.avif": "/risto/static/media/angoloGrigio.4c7d99c3.avif",
     "static/media/arrosticiniang.7a1945ca.avif": "/risto/static/media/arrosticiniang.7a1945ca.avif",
     "static/media/burrataang.e4c07754.avif": "/risto/static/media/burrataang.e4c07754.avif",
-    "static/media/carbonara.0cebf3ce.jpeg": "/risto/static/media/carbonara.0cebf3ce.jpeg",
-    "static/media/carne.310d01c0.jpeg": "/risto/static/media/carne.310d01c0.jpeg",
-    "static/media/dolci.91500b3e.jpeg": "/risto/static/media/dolci.91500b3e.jpeg",
+    "static/media/carbonara.62e4ca40.avif": "/risto/static/media/carbonara.62e4ca40.avif",
+    "static/media/carne.4cab061f.avif": "/risto/static/media/carne.4cab061f.avif",
+    "static/media/dolci.a6abcad3.avif": "/risto/static/media/dolci.a6abcad3.avif",
     "static/media/espresso.1e19f1e9.avif": "/risto/static/media/espresso.1e19f1e9.avif",
-    "static/media/frutta.15e65379.jpeg": "/risto/static/media/frutta.15e65379.jpeg",
+    "static/media/frutta.eeba85c0.avif": "/risto/static/media/frutta.eeba85c0.avif",
     "static/media/gambero.b6fefbf7.avif": "/risto/static/media/gambero.b6fefbf7.avif",
     "static/media/guidaMichelin.e917e390.avif": "/risto/static/media/guidaMichelin.e917e390.avif",
     "static/media/guru.bd30da42.avif": "/risto/static/media/guru.bd30da42.avif",
     "static/media/lavagnanag.682e40a3.avif": "/risto/static/media/lavagnanag.682e40a3.avif",
-    "static/media/menu1.22dc81de.jpeg": "/risto/static/media/menu1.22dc81de.jpeg",
+    "static/media/menu1.3fdbfbbf.avif": "/risto/static/media/menu1.3fdbfbbf.avif",
     "static/media/muralesang.f420c8d2.avif": "/risto/static/media/muralesang.f420c8d2.avif",
-    "static/media/pane.95e71d61.jpeg": "/risto/static/media/pane.95e71d61.jpeg",
+    "static/media/pane.e718841b.avif": "/risto/static/media/pane.e718841b.avif",
     "static/media/paneang.5ac6cc39.avif": "/risto/static/media/paneang.5ac6cc39.avif",
     "static/media/pastaang.49c2992e.avif": "/risto/static/media/pastaang.49c2992e.avif",
-    "static/media/patate.3f1c738f.jpeg": "/risto/static/media/patate.3f1c738f.jpeg",
+    "static/media/patate.6ec82240.avif": "/risto/static/media/patate.6ec82240.avif",
     "static/media/slurpy.b448c72c.avif": "/risto/static/media/slurpy.b448c72c.avif",
     "static/media/vasiang.87054221.avif": "/risto/static/media/vasiang.87054221.avif",
-    "static/media/vino.3f7d7e5f.jpeg": "/risto/static/media/vino.3f7d7e5f.jpeg"
+    "static/media/vino.eeb2154b.avif": "/risto/static/media/vino.eeb2154b.avif"
   },
   "entrypoints": [
     "static/js/runtime-main.1d34bb10.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.1f22ac66.chunk.js",
     "static/css/main.c2054e6c.chunk.css",
-    "static/js/main.d7e1de41.chunk.js"
+    "static/js/main.df859229.chunk.js"
   ]
 }
