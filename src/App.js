@@ -14,7 +14,7 @@ import Titoli1 from './components/3.titoli1';
 import menu from './img/menu1.avif';
 import pane from './img/pane.avif';
 import carbonara from './img/carbonara.avif';
-import carne from './img/carne.avif';
+import carne from './img/carne1.jpg';
 import patate from './img/patate.avif';
 import dolci from './img/dolci.avif';
 import frutta from './img/frutta.avif';
