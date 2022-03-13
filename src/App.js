@@ -228,8 +228,7 @@ function App() {
     <Router basename={window.location.pathname || ''}>
 
       <section id="home"></section>
-      {loading===true?
-      <Loading/>:
+      
       <div>
         <Navbar />
         <section id="chisiamo"> </section>
@@ -275,7 +274,7 @@ function App() {
         <Contatti />
         <div className="container-fluid footer"><Footer /></div>
       </div>
-      }
+      
     </Router>
   );
 }
