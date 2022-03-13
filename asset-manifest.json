@@ -1,25 +1,24 @@
 {
   "files": {
     "main.css": "/risto/static/css/main.10dd9362.chunk.css",
-    "main.js": "/risto/static/js/main.1daf63c2.chunk.js",
-    "main.js.map": "/risto/static/js/main.1daf63c2.chunk.js.map",
+    "main.js": "/risto/static/js/main.1e7be231.chunk.js",
+    "main.js.map": "/risto/static/js/main.1e7be231.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.acc4f9b9.js",
     "runtime-main.js.map": "/risto/static/js/runtime-main.acc4f9b9.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
-    "static/js/2.f1236a8b.chunk.js": "/risto/static/js/2.f1236a8b.chunk.js",
-    "static/js/2.f1236a8b.chunk.js.map": "/risto/static/js/2.f1236a8b.chunk.js.map",
+    "static/js/2.bc4624a5.chunk.js": "/risto/static/js/2.bc4624a5.chunk.js",
+    "static/js/2.bc4624a5.chunk.js.map": "/risto/static/js/2.bc4624a5.chunk.js.map",
     "static/js/3.db38ba80.chunk.js": "/risto/static/js/3.db38ba80.chunk.js",
     "static/js/3.db38ba80.chunk.js.map": "/risto/static/js/3.db38ba80.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
     "static/css/main.10dd9362.chunk.css.map": "/risto/static/css/main.10dd9362.chunk.css.map",
-    "static/js/2.f1236a8b.chunk.js.LICENSE.txt": "/risto/static/js/2.f1236a8b.chunk.js.LICENSE.txt",
+    "static/js/2.bc4624a5.chunk.js.LICENSE.txt": "/risto/static/js/2.bc4624a5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.f20b7073.avif",
     "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
     "static/media/Ball1.79a22971.gif": "/risto/static/media/Ball1.79a22971.gif",
     "static/media/Ball2.0c6950e6.gif": "/risto/static/media/Ball2.0c6950e6.gif",
     "static/media/EntrataAbruzzo.9bf9af89.avif": "/risto/static/media/EntrataAbruzzo.9bf9af89.avif",
-    "static/media/EntrataAbruzzo1.9766d66b.avif": "/risto/static/media/EntrataAbruzzo1.9766d66b.avif",
     "static/media/Fuori.8e6c8308.avif": "/risto/static/media/Fuori.8e6c8308.avif",
     "static/media/MenuAngoloDabruzzo.e3264967.pdf": "/risto/static/media/MenuAngoloDabruzzo.e3264967.pdf",
     "static/media/Panorama.be539445.avif": "/risto/static/media/Panorama.be539445.avif",
@@ -51,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.acc4f9b9.js",
     "static/css/2.7ac31146.chunk.css",
-    "static/js/2.f1236a8b.chunk.js",
+    "static/js/2.bc4624a5.chunk.js",
     "static/css/main.10dd9362.chunk.css",
-    "static/js/main.1daf63c2.chunk.js"
+    "static/js/main.1e7be231.chunk.js"
   ]
 }
