@@ -16,10 +16,10 @@ import pane from './img/pane.avif';
 import carbonara from './img/carbonara.avif';
 import carne from './img/carne1.jpg';
 import patate from './img/patate.avif';
-import dolci from './img/dolci.avif';
-import frutta from './img/frutta.avif';
-import acqua from './img/acqua.avif';
-import vino from './img/vino.avif';
+import dolci from './img/dolce.jpg';
+import frutta from './img/fruit.jpg';
+import acqua from './img/bottle.jpg';
+import vino from './img/wine.jpg';
 
 import PDF from "./pdf/MenuAngoloDabruzzo.pdf";
 
@@ -252,10 +252,10 @@ function App() {
 
           </div>
           <div className="row photo-grid card1-tall card1-wide">
-            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
-            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
-            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
-            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${carne})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${dolci})` }}><button className="button" onClick={filtra} value="dolci">DOLCI</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${frutta})` }}><button className="button" onClick={filtra} value="frutta">FRUTTA</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${acqua})` }}><button className="button" onClick={filtra} value="bevande">BEVANDE</button></div>
+            <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${vino})` }}><button className="button" onClick={filtra} value="vino">VINO</button></div>
           </div>
         </div>
 
