@@ -6,42 +6,72 @@
 /*------------------------------------------------------------------------------------------------------*/
 /*NAVBAR*/
 .sfondoLoading{
-    background: white;
-    background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
-      linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
-    background-size: 30px 30px;
-    width: 100% !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./img/tovagliaGrande.jpg');
+  width: 100% !important;
   height: 100% !important;
   top: 0;
   left: 0;
   position: fixed;
   }
 
+  @media screen and (max-width: 670px) {
+    .sfondoLoading{
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-image: url('./img/tovagliaGrande.jpg');
+      width: 100% !important;
+      height: 100% !important;
+      top: 0;
+      left: 0;
+      position: fixed;
+      }
+      }
+
   .sfondoCompleto{
     background: white;
     background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),
       linear-gradient(rgba(200,0,0,.5) 50%, transparent 0);
-    background-size: 10px 10px !important;
-    
+    background-size: 30px 30px !important;
   }
 
   
-
 .loadingScritta{
-padding-top: 50px !important;
+padding-top: 100px !important;
 font-family:'Bebas Neue', cursive;
 font-size: 3em;
 z-index: 1;
+text-align: right !important;
+margin-right: 10px !important;
 }
+.loadingScritta1{
+  padding-top: 50px !important;
+  padding-bottom: 100px !important;
+  font-family:'Bebas Neue', cursive;
+  font-size: 3em;
+  z-index: 1;
+  }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 670px) {
   .loadingScritta{
     padding-top: 50px !important;
     font-family:'Bebas Neue', cursive;
     color: black;
     font-size: 2em;
     z-index: 1;
+    text-align: center !important;
     }
+    .loadingScritta1{
+      padding-top: 50px !important;
+      padding-bottom: 100px !important;
+      font-family:'Bebas Neue', cursive;
+      font-size: 2em;
+      z-index: 1;
+      text-align: center !important;
+      }
 }
 .navbar {
   width: 100%;
@@ -593,9 +623,23 @@ z-index: 1;
   padding-top: 50px;
   text-align: center;
 }
+.cardCompleto{
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  font-family:'Bebas Neue', cursive;
+  color: white !important;
+  font-size: 4.0vw !important;
+  align-items: center;
+  padding-top: 35px;
+  text-align: center;
+}
+
 @media screen and (max-width: 600px){
 .card1{
   font-size: 3.5vw;
+}
+.cardCompleto{
+  font-size: 5.0vw !important;
 }
 }
 .button{

@@ -12,10 +12,10 @@ import Titoli from './components/2.titoli';
 import Titoli1 from './components/3.titoli1';
 
 import menu from './img/menu1.jpg';
-import pane from './img/pane.avif';
-import carbonara from './img/carbonara.avif';
+import pane from './img/bread.jpg';
+import carbonara from './img/pasta.jpg';
 import carne from './img/carne1.jpg';
-import patate from './img/patate.avif';
+import patate from './img/patate.jpg';
 import dolci from './img/dolce.jpg';
 import frutta from './img/fruit.jpg';
 import acqua from './img/bottle.jpg';
@@ -241,7 +241,7 @@ function App() {
         <div className="container-fluid">
 
           <div className="row photo-grid card1-tall card1-wide">
-            <div data-filter="menu" className="card1 imgSize sfondoCompleto"><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf" style={{color:"black"}}>SCARICA IL MENU COMPLETO</a></div>
+            <div data-filter="menu" className="cardCompleto imgSize sfondoCompleto"><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf" style={{color:"black", backgroundColor:"white"}}>SCARICA IL MENU COMPLETO</a></div>
           </div>
 
           <div className="row photo-grid card1-tall card1-wide">

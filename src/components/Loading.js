@@ -9,11 +9,11 @@ import Ball2 from "../img/Ball2.gif";
 
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import PulseLoader from "react-spinners/PulseLoader";
-
+import HashLoader from "react-spinners/HashLoader";
 
 const override = css`
   display: block;
-  margin-top: 100px;
+ 
 `;
 
 const Loading = () => {
@@ -21,18 +21,22 @@ const Loading = () => {
        
         <div className="sfondoLoading">
         <div align="center">
-            <ClimbingBoxLoader
+        <div className="loadingScritta1">
+                BENVENUTI DA GIANNINO L'ANGOLO D'ABRUZZO
+            </div>
+
+            <HashLoader
             css={override}
             color="black"
-            height={200}
-            width={200}
+            height={50}
+            width={50}
             timeout={5000}
-            size={50}
+            size={150}
             
             />
-            <br/><br/><br/>
+          
             <div className="loadingScritta">
-            CARICAMENTO<PulseLoader color="black" size={10} height={20} width={20} timeout={5000}/>
+            A BREVE VERRAI INDIRIZZATO ALLA PAGINA<PulseLoader color="black" size={10} height={20} width={20} timeout={5000}/>
             </div>
         </div>
         </div>
