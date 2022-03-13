@@ -22,7 +22,7 @@ const Loading = () => {
         <div className="sfondoLoading">
         <div align="center">
         <div className="loadingScritta1">
-                BENVENUTI DA GIANNINO L'ANGOLO D'ABRUZZO
+                BENVENUTI DA<br/> GIANNINO L'ANGOLO D'ABRUZZO
             </div>
 
             <HashLoader
@@ -36,7 +36,7 @@ const Loading = () => {
             />
           
             <div className="loadingScritta">
-            A BREVE VERRAI INDIRIZZATO ALLA PAGINA<PulseLoader color="black" size={10} height={20} width={20} timeout={5000}/>
+            IN CARICAMENTO<PulseLoader color="black" size={10} height={20} width={20} timeout={5000}/>
             </div>
         </div>
         </div>

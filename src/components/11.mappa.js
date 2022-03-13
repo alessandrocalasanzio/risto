@@ -10,7 +10,7 @@ class Mappa extends React.Component{
 
   componentDidMount(){
       AOS.init({
-          duration : 1000,
+          duration : 500,
           once: true,
           mirror: false
         })
