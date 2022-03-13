@@ -204,7 +204,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },4000)
+    },9000)
   },[]);
 
 
@@ -212,7 +212,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 1000);
+    }, 9100);
   }, []);
 
 
@@ -228,7 +228,8 @@ function App() {
     <Router basename={window.location.pathname || ''}>
 
       <section id="home"></section>
-      
+      {loading===true?
+      <Loading/>:
       <div>
         <Navbar />
         <section id="chisiamo"> </section>
@@ -274,7 +275,7 @@ function App() {
         <Contatti />
         <div className="container-fluid footer"><Footer /></div>
       </div>
-      
+}
     </Router>
   );
 }
