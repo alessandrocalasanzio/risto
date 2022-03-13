@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.4df65a03.chunk.css",
-    "main.js": "/risto/static/js/main.55ac5d61.chunk.js",
-    "main.js.map": "/risto/static/js/main.55ac5d61.chunk.js.map",
+    "main.css": "/risto/static/css/main.659ac37b.chunk.css",
+    "main.js": "/risto/static/js/main.bd240e19.chunk.js",
+    "main.js.map": "/risto/static/js/main.bd240e19.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.d0e3c080.js",
     "runtime-main.js.map": "/risto/static/js/runtime-main.d0e3c080.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.5cee0262.chunk.js.map": "/risto/static/js/3.5cee0262.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.4df65a03.chunk.css.map": "/risto/static/css/main.4df65a03.chunk.css.map",
+    "static/css/main.659ac37b.chunk.css.map": "/risto/static/css/main.659ac37b.chunk.css.map",
     "static/js/2.89d23749.chunk.js.LICENSE.txt": "/risto/static/js/2.89d23749.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/risto/static/media/tovagliaGrande.05f05cb9.jpg",
+    "static/media/App.css": "/risto/static/media/tempo.f20b7073.avif",
     "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
     "static/media/Ball1.79a22971.gif": "/risto/static/media/Ball1.79a22971.gif",
     "static/media/Ball2.0c6950e6.gif": "/risto/static/media/Ball2.0c6950e6.gif",
@@ -51,7 +51,7 @@
     "static/js/runtime-main.d0e3c080.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.89d23749.chunk.js",
-    "static/css/main.4df65a03.chunk.css",
-    "static/js/main.55ac5d61.chunk.js"
+    "static/css/main.659ac37b.chunk.css",
+    "static/js/main.bd240e19.chunk.js"
   ]
 }
