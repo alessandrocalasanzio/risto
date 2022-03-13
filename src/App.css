@@ -950,13 +950,13 @@ a:hover{
 }
 
 .sfondoContatti1{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/mi.jpeg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/mi.avif") !important;
   background-size: cover;
   width: 100%;
   z-index: 1;
 }
 .sfondoContatti2{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.jpeg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/tempo.avif") !important;
   background-size: cover;
   z-index: 1;
 }
