@@ -604,7 +604,7 @@ z-index: 1;
   padding-top: 50px;
   text-align: center;
 }
-.card2{
+.cardCompleto{
   border: 1px solid black !important;
   border-radius: 0px !important;
   font-family:'Bebas Neue', cursive;
@@ -619,7 +619,7 @@ z-index: 1;
 .card1{
   font-size: 3.5vw;
 }
-.card2{
+.cardCompleto{
   font-size: 5.0vw !important;
 }
 }
