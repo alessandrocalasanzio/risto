@@ -7,7 +7,7 @@ import gambero from "../img/gambero.avif";
 import espresso from "../img/espresso.avif";
 import slurpy from "../img/slurpy.avif";
 import guru from "../img/guru.avif";
-import vivi from "../img/vivi.avif";
+import vivi from "../img/vivi.svg";
 
 
 const images=[

@@ -4,7 +4,18 @@ import angoloGrigio from "../img/angoloGrigio.avif";
 import entrataAbruzzo from "../img/EntrataAbruzzo1.avif";
 import Carousel from 'react-bootstrap/Carousel';
 
+let imageList=[];
+
+
 class Carosello extends React.Component {
+
+    componentDidMount() {
+        imageList = [Panorama,angoloGrigio,entrataAbruzzo]
+        imageList.forEach((image) => {
+            new Image().src = image
+        });
+    }
+
     render() {
         return (
             <div>

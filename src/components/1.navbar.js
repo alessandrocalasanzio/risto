@@ -7,9 +7,16 @@ import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
+let imageList=[];
 
 export default class TransNavigationBar extends Component {
-
+  
+  componentDidMount() {
+    imageList = [angolo]
+    imageList.forEach((image) => {
+        new Image().src = image
+    });
+}
 
  
   state = {
@@ -36,6 +43,10 @@ export default class TransNavigationBar extends Component {
       }
     });
   }
+
+ 
+
+
 
 
   render() {
