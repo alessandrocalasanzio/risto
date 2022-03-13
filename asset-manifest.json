@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.0fd6e403.chunk.css",
-    "main.js": "/risto/static/js/main.2725830d.chunk.js",
-    "main.js.map": "/risto/static/js/main.2725830d.chunk.js.map",
+    "main.css": "/risto/static/css/main.e6e0bf1d.chunk.css",
+    "main.js": "/risto/static/js/main.104f8b97.chunk.js",
+    "main.js.map": "/risto/static/js/main.104f8b97.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.1d34bb10.js",
     "runtime-main.js.map": "/risto/static/js/runtime-main.1d34bb10.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.2f02992c.chunk.js.map": "/risto/static/js/3.2f02992c.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.0fd6e403.chunk.css.map": "/risto/static/css/main.0fd6e403.chunk.css.map",
+    "static/css/main.e6e0bf1d.chunk.css.map": "/risto/static/css/main.e6e0bf1d.chunk.css.map",
     "static/js/2.1f22ac66.chunk.js.LICENSE.txt": "/risto/static/js/2.1f22ac66.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.866b9d49.jpeg",
     "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
     "static/media/Ball1.79a22971.gif": "/risto/static/media/Ball1.79a22971.gif",
     "static/media/Ball2.0c6950e6.gif": "/risto/static/media/Ball2.0c6950e6.gif",
-    "static/media/EntrataAbruzzo.a9599868.jpeg": "/risto/static/media/EntrataAbruzzo.a9599868.jpeg",
-    "static/media/EntrataAbruzzo1.af61f145.jpeg": "/risto/static/media/EntrataAbruzzo1.af61f145.jpeg",
+    "static/media/EntrataAbruzzo.a2312b2b.jpeg": "/risto/static/media/EntrataAbruzzo.a2312b2b.jpeg",
+    "static/media/EntrataAbruzzo1.cabe6bd9.jpeg": "/risto/static/media/EntrataAbruzzo1.cabe6bd9.jpeg",
     "static/media/Fuori.f89d3263.jpg": "/risto/static/media/Fuori.f89d3263.jpg",
     "static/media/MenuAngoloDabruzzo.e3264967.pdf": "/risto/static/media/MenuAngoloDabruzzo.e3264967.pdf",
     "static/media/Panorama.9fa3f947.jpeg": "/risto/static/media/Panorama.9fa3f947.jpeg",
@@ -29,7 +29,7 @@
     "static/media/arrosticiniang.46a43d3c.jpeg": "/risto/static/media/arrosticiniang.46a43d3c.jpeg",
     "static/media/burrataang.d5dec148.jpg": "/risto/static/media/burrataang.d5dec148.jpg",
     "static/media/carbonara.0cebf3ce.jpeg": "/risto/static/media/carbonara.0cebf3ce.jpeg",
-    "static/media/carne.251f2316.jpeg": "/risto/static/media/carne.251f2316.jpeg",
+    "static/media/carne.310d01c0.jpeg": "/risto/static/media/carne.310d01c0.jpeg",
     "static/media/dolci.91500b3e.jpeg": "/risto/static/media/dolci.91500b3e.jpeg",
     "static/media/espresso.526c4f1f.png": "/risto/static/media/espresso.526c4f1f.png",
     "static/media/frutta.15e65379.jpeg": "/risto/static/media/frutta.15e65379.jpeg",
@@ -37,7 +37,7 @@
     "static/media/guidaMichelin.080e4917.png": "/risto/static/media/guidaMichelin.080e4917.png",
     "static/media/guru.0018d670.svg": "/risto/static/media/guru.0018d670.svg",
     "static/media/lavagnanag.aaf2eb98.jpg": "/risto/static/media/lavagnanag.aaf2eb98.jpg",
-    "static/media/menu1.60ad887a.jpg": "/risto/static/media/menu1.60ad887a.jpg",
+    "static/media/menu1.22dc81de.jpeg": "/risto/static/media/menu1.22dc81de.jpeg",
     "static/media/muralesang.c7aeaac8.jpg": "/risto/static/media/muralesang.c7aeaac8.jpg",
     "static/media/pane.95e71d61.jpeg": "/risto/static/media/pane.95e71d61.jpeg",
     "static/media/paneang.7337a7fa.jpg": "/risto/static/media/paneang.7337a7fa.jpg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.1d34bb10.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.1f22ac66.chunk.js",
-    "static/css/main.0fd6e403.chunk.css",
-    "static/js/main.2725830d.chunk.js"
+    "static/css/main.e6e0bf1d.chunk.css",
+    "static/js/main.104f8b97.chunk.js"
   ]
 }
