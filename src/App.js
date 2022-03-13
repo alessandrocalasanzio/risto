@@ -212,7 +212,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 4200);
+    }, 1000);
   }, []);
 
 
