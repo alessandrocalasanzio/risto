@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.c2054e6c.chunk.css",
+    "main.css": "/risto/static/css/main.d0be51af.chunk.css",
     "main.js": "/risto/static/js/main.df859229.chunk.js",
     "main.js.map": "/risto/static/js/main.df859229.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.1d34bb10.js",
@@ -12,7 +12,7 @@
     "static/js/3.2f02992c.chunk.js.map": "/risto/static/js/3.2f02992c.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.c2054e6c.chunk.css.map": "/risto/static/css/main.c2054e6c.chunk.css.map",
+    "static/css/main.d0be51af.chunk.css.map": "/risto/static/css/main.d0be51af.chunk.css.map",
     "static/js/2.1f22ac66.chunk.js.LICENSE.txt": "/risto/static/js/2.1f22ac66.chunk.js.LICENSE.txt",
     "static/media/App.css": "/risto/static/media/tempo.f20b7073.avif",
     "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
@@ -51,7 +51,7 @@
     "static/js/runtime-main.1d34bb10.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.1f22ac66.chunk.js",
-    "static/css/main.c2054e6c.chunk.css",
+    "static/css/main.d0be51af.chunk.css",
     "static/js/main.df859229.chunk.js"
   ]
 }
