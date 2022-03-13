@@ -635,7 +635,7 @@ a:hover{
 /*MENU*/
 
 .sfondoMenu{
-  background-image:  url("img/blackboard2.jpeg");
+  background-image:  url("img/blackboard2.avif");
   background-size: cover;
   background-repeat: repeat !important;
   background-position: center center;
@@ -997,7 +997,7 @@ a:hover{
 
 @media screen and (max-width: 580px){
   .sfondoContatti5{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.jpg") !important;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.avif") !important;
     background-size: cover;
     background-position-x: 85%;
     height: 100%;
@@ -1013,7 +1013,7 @@ a:hover{
     padding-top: 40px !important;
   }
   .sfondoContatti7{
-    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.png") !important;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.avif") !important;
     background-size: cover;
     background-position: center;
     height: 100%;
