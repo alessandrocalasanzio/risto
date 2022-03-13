@@ -151,12 +151,7 @@ function App() {
   const [state, setState] = useState(menus);
   const ref = useRef(null);
 
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 8000)
-  }, [])
+
 
   const filtra = (e) => {
     let word = e.target.value;
@@ -209,7 +204,7 @@ function App() {
     setLoading(true)
     setTimeout(()=>{
       setLoading(false)
-    },9000)
+    },4000)
   },[]);
 
 
@@ -217,7 +212,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       ref.current.click();
-    }, 9200);
+    }, 4200);
   }, []);
 
 
