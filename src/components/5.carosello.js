@@ -1,6 +1,6 @@
 import React from "react";
-import Panorama from "../img/Panorama.jpeg";
-import angoloGrigio from "../img/angoloGrigio.jpeg";
+import Panorama from "../img/Panorama.avif";
+import angoloGrigio from "../img/angoloGrigio.avif";
 import entrataAbruzzo from "../img/EntrataAbruzzo1.avif";
 import Carousel from 'react-bootstrap/Carousel';
 

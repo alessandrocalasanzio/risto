@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import Carousel from 'react-grid-carousel'
-import pasta from '../img/pastaang.jpg';
-import pane from '../img/paneang.jpg';
-import burrata from '../img/burrataang.jpg';
-import arrosticini from'../img/arrosticiniang.jpeg';
-import vasi from '../img/vasiang.jpg';
-import murales from '../img/muralesang.jpg';
-import lavagna from '../img/lavagnanag.jpg';
-import fuori from '../img/Fuori.jpg';
-import angolo from '../img/angolo.jpg';
+import pasta from '../img/pastaang.avif';
+import pane from '../img/paneang.avif';
+import burrata from '../img/burrataang.avif';
+import arrosticini from'../img/arrosticiniang.avif';
+import vasi from '../img/vasiang.avif';
+import murales from '../img/muralesang.avif';
+import lavagna from '../img/lavagnanag.avif';
+import fuori from '../img/Fuori.avif';
+import angolo from '../img/angolo.avif';
 
 const images=[
   {id:'0',img:pasta},

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
-import angolo from "../img/EntrataAbruzzo.jpeg";
+import angolo from "../img/EntrataAbruzzo.avif";
 import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';

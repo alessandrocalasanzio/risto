@@ -961,12 +961,12 @@ a:hover{
   z-index: 1;
 }
 .sfondoContatti3{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/preno.jpeg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/preno.avif") !important;
   background-size: cover;
   z-index: 1;
 }
 .sfondoContatti4{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/social.jpg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/social.avif") !important;
   background-size: cover;
   z-index: 1;
 }

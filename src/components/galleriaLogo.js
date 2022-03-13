@@ -2,12 +2,12 @@ import React from 'react';
 import styled from 'styled-components'
 import Carousel from 'react-grid-carousel'
 
-import guida from "../img/guidaMichelin.png";
-import gambero from "../img/gambero.png";
-import espresso from "../img/espresso.png";
-import slurpy from "../img/slurpy.png";
-import guru from "../img/guru.svg";
-import vivi from "../img/vivi.svg";
+import guida from "../img/guidaMichelin.avif";
+import gambero from "../img/gambero.avif";
+import espresso from "../img/espresso.avif";
+import slurpy from "../img/slurpy.avif";
+import guru from "../img/guru.avif";
+import vivi from "../img/vivi.avif";
 
 
 const images=[
