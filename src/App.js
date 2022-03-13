@@ -11,7 +11,7 @@ import Footer from './components/12.footer';
 import Titoli from './components/2.titoli';
 import Titoli1 from './components/3.titoli1';
 
-import menu from './img/menu1.jpg';
+import menu from './img/menu1.jpeg';
 import pane from './img/pane.jpeg';
 import carbonara from './img/carbonara.jpeg';
 import carne from './img/carne.jpeg';
