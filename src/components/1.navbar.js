@@ -6,6 +6,9 @@ import PDF from "../pdf/MenuAngoloDabruzzo.pdf";
 
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
+import ProgressiveImage from "react-progressive-image-loading";
+
+<script src="https://unpkg.com/react-progressive-image@0.1.0/umd/react-progressive-image.min.js"></script>
 
 let imageList=[];
 
@@ -56,8 +59,11 @@ export default class TransNavigationBar extends Component {
       <div>
         
           <div className="box">
-          <img src={angolo} className="img" alt="Angolo"/>
-         
+          <ProgressiveImage
+    preview={angolo}
+    src={angolo}
+    render={(src) => <img src={src}/>}
+/>
           <a type="button" href={PDF} download="MenuAngoloDabruzzo.pdf" className="btn btn-danger wiggle">
                     Scarica il nostro Menu
            </a>
