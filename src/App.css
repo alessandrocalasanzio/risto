@@ -971,7 +971,7 @@ a:hover{
   z-index: 1;
 }
 .sfondoContatti5{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.jpg") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/fb.avif") !important;
   background-size: cover;
   background-position: right;
   height: 100%;
@@ -987,7 +987,7 @@ a:hover{
   padding-top: 40px !important;
 }
 .sfondoContatti7{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.png") !important;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.733), rgba(255,255,255,0.5)), url("img/lk.avif") !important;
   background-size: cover;
   background-position: right;
   height: 100%;
