@@ -13,8 +13,8 @@ class ScheletroStoria extends React.Component {
     componentDidMount(){
         AOS.init({
             duration : 1000,
-            once: false,
-            mirror: true
+            once: true,
+            mirror: false
           })
     }
 
@@ -22,7 +22,7 @@ class ScheletroStoria extends React.Component {
 
         return (
             <div>
-                <div className="container-fluid " data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
+                <div className="container-fluid " data-aos="fade-up" data-aos-mirror='false' data-aos-once='true'>
                     <div className="row">
                         <div className="col-md-5 marginColonna">
                             <Carosello/>

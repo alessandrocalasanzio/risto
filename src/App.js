@@ -238,7 +238,7 @@ function App() {
         <section id="menu"></section>
         <Titoli1 title="MENU" />
         {/*BOTTONI MENU*/}
-        <div className="container-fluid" data-aos="fade-up" data-aos-mirror='true' data-aos-once='false'>
+        <div className="container-fluid" data-aos="fade-up" data-aos-mirror='false' data-aos-once='true'>
 
           <div className="row photo-grid card1-tall card1-wide">
             <div data-filter="menu" className="card1 imgSize" style={{ backgroundImage: `url(${menu})` }}><a type="button" className="button" href={PDF} download="MenuAngoloDabruzzo.pdf">SCARICA IL MENU COMPLETO</a></div>

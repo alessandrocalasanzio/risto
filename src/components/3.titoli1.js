@@ -7,14 +7,14 @@ class Titoli1 extends React.Component{
   componentDidMount(){
     AOS.init({
       duration : 1000,
-      once: false,
-      mirror: true
+      once: true,
+      mirror: false
     })
   }
   render(){
     return(
       <div className="container-fluid contenitoreMinimo">
-      <div className="titoloStoria titoloStoria1" data-aos="fade-left" data-aos-mirror='true' data-aos-once='false'>
+      <div className="titoloStoria titoloStoria1" data-aos="fade-left" data-aos-mirror='false' data-aos-once='true'>
         {this.props.title}
       </div>
       </div>

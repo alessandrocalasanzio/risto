@@ -13,15 +13,15 @@ class TestoContatti extends React.Component {
     componentDidMount(){
         AOS.init({
             duration : 1000,
-            once: false,
-            mirror: true
+            once: true,
+            mirror: false
           })
     }
     render() {
         return (
 
 
-            <Table borderless data-aos="fade-right" data-aos-mirror='true' data-aos-once='false'  >
+            <Table borderless data-aos="fade-right" data-aos-mirror='false' data-aos-once='true'  >
 <tbody>
                 <tr className="Asstr" >
                     <th className="photo-grid1 card1-tall card1-wide noPadding">
