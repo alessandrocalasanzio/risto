@@ -11,15 +11,15 @@ import Footer from './components/12.footer';
 import Titoli from './components/2.titoli';
 import Titoli1 from './components/3.titoli1';
 
-import menu from './img/menu1.jpeg';
-import pane from './img/pane.jpeg';
-import carbonara from './img/carbonara.jpeg';
-import carne from './img/carne.jpeg';
-import patate from './img/patate.jpeg';
-import dolci from './img/dolci.jpeg';
-import frutta from './img/frutta.jpeg';
-import acqua from './img/acqua.jpeg';
-import vino from './img/vino.jpeg';
+import menu from './img/menu1.avif';
+import pane from './img/pane.avif';
+import carbonara from './img/carbonara.avif';
+import carne from './img/carne.avif';
+import patate from './img/patate.avif';
+import dolci from './img/dolci.avif';
+import frutta from './img/frutta.avif';
+import acqua from './img/acqua.avif';
+import vino from './img/vino.avif';
 
 import PDF from "./pdf/MenuAngoloDabruzzo.pdf";
 
