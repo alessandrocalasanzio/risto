@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/risto/static/css/main.e6e0bf1d.chunk.css",
-    "main.js": "/risto/static/js/main.54b00cf0.chunk.js",
-    "main.js.map": "/risto/static/js/main.54b00cf0.chunk.js.map",
+    "main.css": "/risto/static/css/main.367bb958.chunk.css",
+    "main.js": "/risto/static/js/main.0b63ff4f.chunk.js",
+    "main.js.map": "/risto/static/js/main.0b63ff4f.chunk.js.map",
     "runtime-main.js": "/risto/static/js/runtime-main.1d34bb10.js",
     "runtime-main.js.map": "/risto/static/js/runtime-main.1d34bb10.js.map",
     "static/css/2.7ac31146.chunk.css": "/risto/static/css/2.7ac31146.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.2f02992c.chunk.js.map": "/risto/static/js/3.2f02992c.chunk.js.map",
     "index.html": "/risto/index.html",
     "static/css/2.7ac31146.chunk.css.map": "/risto/static/css/2.7ac31146.chunk.css.map",
-    "static/css/main.e6e0bf1d.chunk.css.map": "/risto/static/css/main.e6e0bf1d.chunk.css.map",
+    "static/css/main.367bb958.chunk.css.map": "/risto/static/css/main.367bb958.chunk.css.map",
     "static/js/2.1f22ac66.chunk.js.LICENSE.txt": "/risto/static/js/2.1f22ac66.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/risto/static/media/tempo.866b9d49.jpeg",
+    "static/media/App.css": "/risto/static/media/tempo.f20b7073.avif",
     "static/media/Ball.e7244691.gif": "/risto/static/media/Ball.e7244691.gif",
     "static/media/Ball1.79a22971.gif": "/risto/static/media/Ball1.79a22971.gif",
     "static/media/Ball2.0c6950e6.gif": "/risto/static/media/Ball2.0c6950e6.gif",
     "static/media/EntrataAbruzzo.a2312b2b.jpeg": "/risto/static/media/EntrataAbruzzo.a2312b2b.jpeg",
-    "static/media/EntrataAbruzzo1.cabe6bd9.jpeg": "/risto/static/media/EntrataAbruzzo1.cabe6bd9.jpeg",
+    "static/media/EntrataAbruzzo1.ef6a365a.avif": "/risto/static/media/EntrataAbruzzo1.ef6a365a.avif",
     "static/media/Fuori.f89d3263.jpg": "/risto/static/media/Fuori.f89d3263.jpg",
     "static/media/MenuAngoloDabruzzo.e3264967.pdf": "/risto/static/media/MenuAngoloDabruzzo.e3264967.pdf",
     "static/media/Panorama.9fa3f947.jpeg": "/risto/static/media/Panorama.9fa3f947.jpeg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.1d34bb10.js",
     "static/css/2.7ac31146.chunk.css",
     "static/js/2.1f22ac66.chunk.js",
-    "static/css/main.e6e0bf1d.chunk.css",
-    "static/js/main.54b00cf0.chunk.js"
+    "static/css/main.367bb958.chunk.css",
+    "static/js/main.0b63ff4f.chunk.js"
   ]
 }
