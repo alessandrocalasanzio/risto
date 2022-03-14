@@ -1103,10 +1103,12 @@ z-index: 9999 !important;
 .testSx{
   text-align: left !important;
   margin-left: -15px !important;
+  font-size: 2vw;
 }
 .testCx{
   text-align: center;
   margin: 0 0 0 0 !important;
+  font-size: 2vw;
 }
 
 .testDx{
@@ -1114,6 +1116,7 @@ z-index: 9999 !important;
   align-items: right;
   padding: 0 0 0 0 !important;
 }
+
 .fa{
   margin-left: 5px;
   margin-right: 5px;
@@ -1122,6 +1125,9 @@ z-index: 9999 !important;
 .testSx{
  
   font-size: small;
+}
+.testDx{
+  size: 10px !important;
 }
   }
 
@@ -1133,14 +1139,36 @@ z-index: 9999 !important;
       }
       @media only screen and (max-width: 420px) {
         .testCx{
-          font-size: 9px !important;
+          font-size: 12px !important;
           text-align: center;
-          
         }
+        .fa-2x{
+          font-size: 1.3em !important;
+          font: 1.3em !important;
+        }
+      
           }
 
+          @media only screen and (max-width: 351px) {
+            .testSx{
+              font-size: 9px !important;
+            }
+            .testCx{
+              font-size: 7px !important;
+            }
+            .fa-2x{
+              font-size: 1em !important;
+              font: 1em !important;
+            }
+
+
+
+              }
+
+        
 
 /*FINE FOOTER*/
+
 p{
   margin: 0 0 0 0 !important;
 }

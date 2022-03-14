@@ -14,9 +14,9 @@ class Footer extends React.Component{
 </th>
       <th scope="col"><p className="testDx">
           <nobr>
-      <a className="fb" href="https://it-it.facebook.com/angolodabruzzo1/"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-      <a className="ig" href="https://www.instagram.com/angolodabruzzo/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
-      <a className="tree" href="https://linktr.ee/AngoloDabruzzo"><i className="fa fa-tree" aria-hidden="true"></i></a>
+      <a className="fb" href="https://it-it.facebook.com/angolodabruzzo1/"><i className="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+      <a className="ig" href="https://www.instagram.com/angolodabruzzo/"><i className="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a className="tree" href="https://linktr.ee/AngoloDabruzzo"><i className="fa fa-tree fa-2x" aria-hidden="true"></i></a>
       </nobr>
           </p></th>
     </tr>
