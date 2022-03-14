@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import Modal from 'react-bootstrap/Modal'
 import { useState } from 'react';
 
@@ -6,10 +6,10 @@ function Privacy() {
     const [show, setShow] = useState(false);
     const [fullscreen, setFullscreen] = useState(true);
 
-  
-    return (
-      <>
-        <a type="button" variant="primary" onClick={() => setShow(true)}>
+
+    return ( 
+        <>
+        <a className="coloreCookie"  type="button" variant="primary" onClick={() => setShow(true)}>
           Cookie Policy
         </a>
   
@@ -32,13 +32,7 @@ function Privacy() {
           </Modal.Header>
           <Modal.Body >
             <p>
-              Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-              commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-              ipsam atque a dolores quisquam quisquam adipisci possimus
-              laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-              accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-              reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-              deleniti rem!
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </Modal.Body>
         </Modal>
@@ -47,4 +41,6 @@ function Privacy() {
     );
   }
   
- export default Privacy;
+
+
+  export default Privacy;

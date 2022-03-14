@@ -9,7 +9,7 @@ function Privacy() {
   
     return (
       <>
-        <a  type="button" variant="primary" onClick={() => setShow(true)}>
+        <a className="colorePrivacy"  type="button" variant="primary" onClick={() => setShow(true)}>
           Privacy Policy
         </a>
   
